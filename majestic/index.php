@@ -1,0 +1,1 @@
+<script>window.location = "https://labs.majestic.com"; </script>
