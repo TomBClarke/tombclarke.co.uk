@@ -6,7 +6,7 @@
         <title>Tom Clarke</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link type="text/css" rel="stylesheet" href="css/main.css"/>
-        <link rel="icon" href="res/img/favicon.png">
+        <link rel="icon" href="res/img/me_circle.png">
     </head>
     <body>
         <div class="main">
