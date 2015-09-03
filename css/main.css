@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #b81d18;
+}
+
+img#picofme {
+    width: 200px;
+    height: 200px;
+}
+
+.main {
+    color: #f0f0f0;
+    margin: auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+a {
+    color: #202020;
+}
