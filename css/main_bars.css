@@ -1,0 +1,31 @@
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    color: #f0f0f0;
+    background: #202020;
+    font-size: 20pt;
+    vertical-align: middle;
+}
+
+#header a {
+    vertical-align: middle;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background: #a71c17;
+    color: #f0f0f0;
+}
+
+#footer-content {
+    
+}

@@ -2,11 +2,19 @@ body {
     font-family: sans-serif;
     text-align: center;
     background: #b81d18;
+    margin: 0px;
+    margin-top: 40px;
 }
 
 img#picofme {
     width: 200px;
     height: 200px;
+}
+
+img.project-img {
+    width: auto;
+    height: 200px;
+    padding: 10px;
 }
 
 .main {
@@ -16,6 +24,23 @@ img#picofme {
     max-width: 600px;
 }
 
+.section {
+    background: #f0f0f0;
+    color: #202020;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.section p {
+    text-align: justify;
+}
+
 a {
-    color: #b6b6b6;
+    color: #f0f0f0;
+}
+
+p a {
+    color: #004687;
+    text-decoration: none;
 }
