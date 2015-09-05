@@ -11,10 +11,21 @@
     vertical-align: middle;
 }
 
+#header-social-links {
+    position: fixed;
+    right: 0px;
+    padding: 5px;
+}
+
 #header a {
     vertical-align: middle;
     color: #f0f0f0;
     text-decoration: none;
+}
+
+#header img {
+    width: 30px;
+    height: 30px;
 }
 
 #footer {
