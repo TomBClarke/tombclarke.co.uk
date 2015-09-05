@@ -9,7 +9,7 @@
     text-align: center;
     color: #f0f0f0;
     background: #202020;
-    font-size: 20pt;
+    font-size: 22pt;
     vertical-align: middle;
 }
 
@@ -46,4 +46,25 @@
     text-align: center;
     background: #a71c17;
     color: #f0f0f0;
+}
+
+@media (max-width: 1000px) {
+    #header {
+        height: 80px;
+        font-size: 44pt;
+        text-align: left;
+        padding-left: 5px;
+    }
+    
+    #header img {
+        padding-top: 5px;
+        width: 60px;
+        height: 60px;
+    }
+    
+    #footer p {
+        height: 34px;
+        padding-top: 14px;
+        font-size: 15pt;
+    }
 }
