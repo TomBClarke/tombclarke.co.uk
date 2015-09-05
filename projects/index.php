@@ -3,7 +3,7 @@
 
 <html>
     <head>
-        <title>Tom Clarke</title>
+        <title>Projects</title>
         <?php $comp_dir = "../"; include $comp_dir . 'php/coreimports.php'; ?>
     </head>
     <body>
