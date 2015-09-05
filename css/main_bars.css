@@ -1,4 +1,6 @@
 #header {
+    border: 0px;
+    margin: 0px;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -17,6 +19,10 @@
     padding: 5px;
 }
 
+#header-nav a {
+    /* Would be nice o have words a little lower (by like 3px max) */
+}
+
 #header a {
     vertical-align: middle;
     color: #f0f0f0;
@@ -28,15 +34,16 @@
     height: 30px;
 }
 
-#footer {
-    position: absolute;
+#footer p {
+    border: 0px;
+    margin: 0px;
+    vertical-align: middle;
+    padding-top: 3px;
+    position: fixed;
+    height: 20px;
     bottom: 0px;
     width: 100%;
     text-align: center;
     background: #a71c17;
     color: #f0f0f0;
-}
-
-#footer-content {
-    
 }
