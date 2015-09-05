@@ -10,7 +10,7 @@
         <div class="main">
             <h1>Projects</h1>
             <div class="project">
-                <h2>Majestic Summer Internship 2015 - <a href="../majestic">View here</a></h2>
+                <h2>Majestic Summer Internship 2015 - <a href="majestic">View here</a></h2>
                 <div class="section">
                     <img class="project-img" src="../res/img/projects/majesticseo-logo-black-white-large.png"/>
                     <p>Myself, <a target="_blank" href="http://mishawagner.co.nf">Misha Wagner</a> and Rowan Cole worked as a team at Majestic to create interesting data visualisations using D3.js. Majsetic also hired a journalist, <a target="_blank" href="https://twitter.com/pupulchatterjee">Pupul Chatterjee</a>, to write blogs about what we created. Through out the 10 weeks, we used HTML, CSS, PHP, Java, JavaScript with D3 and, of course, the Majestic API.</p>
