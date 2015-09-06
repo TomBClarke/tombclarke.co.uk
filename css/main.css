@@ -46,6 +46,10 @@ p a {
     text-decoration: none;
 }
 
+p {
+    font-size: 1em;
+}
+
 @media (max-width: 1000px) {
     body {
         margin-top: 80px;
@@ -74,5 +78,9 @@ p a {
     
     h2 {
         font-size: 3em;
+    }
+    
+    p {
+        font-size: 2em;
     }
 }
