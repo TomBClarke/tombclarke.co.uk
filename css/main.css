@@ -50,6 +50,10 @@ p {
     font-size: 1em;
 }
 
+h3 {
+    font-size: 1.5em;
+}
+
 @media (max-width: 1000px) {
     body {
         margin-top: 80px;
@@ -78,6 +82,10 @@ p {
     
     h2 {
         font-size: 3em;
+    }
+    
+    h3 {
+        font-size: 2.5em;
     }
     
     p {
