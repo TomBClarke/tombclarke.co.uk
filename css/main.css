@@ -39,11 +39,15 @@ img.project-img {
 
 a {
     color: #f0f0f0;
+    text-decoration: none;
+}
+
+.section h3 a {
+    color: #202020;
 }
 
 p a {
     color: #004687;
-    text-decoration: none;
 }
 
 p {

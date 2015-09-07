@@ -18,6 +18,9 @@
 <link type="text/css" rel="stylesheet" href="<?php echo $serv_dir; ?>css/main.css"/>
 <link type="text/css" rel="stylesheet" href="<?php echo $serv_dir; ?>css/main_bars.css"/>
 
+<!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
 <!-- PHP Includes -->
 <?php include $comp_dir . 'php/header.php'; ?>
 <?php include $comp_dir . 'php/footer.php'; ?>
