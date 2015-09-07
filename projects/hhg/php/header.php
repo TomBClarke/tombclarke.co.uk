@@ -37,7 +37,7 @@
     </span>
     
     <span class="mobile">
-        <span id="mobile-text">Menu &#x25BC;</span>
+        <span id="mobile-text">Menu <span id="nav-arrow">&#x25BC;</span></span>
         <ul class="nav-list" id="mobile-nav">
             <li><a href="<?php echo $serv_dir; ?>">Home</a></li>
             <li><a href="<?php echo $serv_dir . 'about'; ?>">About Us</a></li>

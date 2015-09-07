@@ -10,7 +10,7 @@
         <div class="main">
             <h1>Entry Criteria</h1>
             <div class="section">
-                <p><a href="../res/pdf/HHG_application_form.pdf">Application forms</a> are available from Lawrence House or can be downloaded from this website.  Lawrence House is not “Direct Access” accommodation.  This means we cannot directly accommodate people who come to us, unlike some hostels or night shelters.  All individuals who wish to apply for accommodation must first fill out the Application Form and, if appropriate, subsequently attend an interview to assess their need.  </p>
+                <p><a href="../res/pdf/app_form.pdf">Application forms</a> are available from Lawrence House or can be downloaded from this website.  Lawrence House is not “Direct Access” accommodation.  This means we cannot directly accommodate people who come to us, unlike some hostels or night shelters.  All individuals who wish to apply for accommodation must first fill out the Application Form and, if appropriate, subsequently attend an interview to assess their need.  </p>
                 <p>Applications are accepted from single homeless persons between the ages of 16 and 24 years, regardless of whether they are employed or not.  Referrals may come direct from applicant or from outside agencies.  Applications must be made in writing on the official Lawrence House Application Form which is available from the office, website and other local agencies.  Staff will always check if an applicant needs help to complete the form.
 </p>
                 <p>Homeless young people who are physically disabled but who feel they can cope with the environment of the house and don’t require help with physical care may also apply.
@@ -33,7 +33,7 @@
                 <p>Lawrence House is wheelchair accessible and operates an Equality and Diversity Policy.</p>
                 <p>Hinckley Homeless Group will ensure that all existing and potential residents receive equality of opportunity and treatment.  We seek to ensure that no prospective resident receives less favourable treatment on the grounds of gender, race, colour, religious beliefs, disability, ethnic origins, sexual orientation, HIV status or personal circumstances</p>
             </div>
-            <h1><a href="../res/pdf/HHG_application_form.pdf">Apply now</a></h1>
+            <h1><a href="../res/pdf/app_form.pdf">Apply now &#9658;</a></h1>
         </div>
         <?php include $comp_dir . 'php/footer.php'; ?>
     </body>

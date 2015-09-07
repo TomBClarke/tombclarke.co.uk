@@ -10,13 +10,13 @@
         <div class="main">
             <h1>Projects</h1>
             <div class="project">
-                <h2>Hincley Homeless Group Website - <a href="hinckleyhomeless">View here (beta)</a></h2>
+                <h2>Hincley Homeless Group Website - <a href="hhg">View here (beta) &#9658;</a></h2>
                 <div class="section">
                     <img class="project-img" src="../res/img/projects/hhg.png"/>
                     <p>As charity work, I have been working on a new website for Hinckley Homeless Group. For now, this link here is so the directors can see what I've done to see if they'd like to use it as the full site in place of what they currently have.</p>
                     <p>It is therefore worth noting that because this is effectively a development version lots of this could change, and at request will. To me, an important part of this website is to be mobile compatible, so please do view the website on a normal PC and a mobile phone to experience it in both 'modes'.</p>
                 </div>
-                <h2>Majestic Summer Internship 2015 - <a href="majestic">View here</a></h2>
+                <h2>Majestic Summer Internship 2015 - <a href="majestic">View here &#9658;</a></h2>
                 <div class="section">
                     <img class="project-img" src="../res/img/projects/majesticseo-logo-black-white-large.png"/>
                     <p>Myself, <a target="_blank" href="http://mishawagner.co.nf">Misha Wagner</a> and Rowan Cole worked as a team at Majestic to create interesting data visualisations using D3.js. Majsetic also hired a journalist, <a target="_blank" href="https://twitter.com/pupulchatterjee">Pupul Chatterjee</a>, to write blogs about what we created. Through out the 10 weeks, we used HTML, CSS, PHP, Java, JavaScript with D3 and, of course, the Majestic API.</p>

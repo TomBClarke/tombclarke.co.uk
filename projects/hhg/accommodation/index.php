@@ -7,8 +7,8 @@
         <?php $comp_dir = "../"; include $comp_dir . 'php/coreimports.php'; ?>
     </head>
     <body>
-        <h1>Accommodation</h1>
         <div class="main">
+            <h1>Accommodation</h1> 
             <div class="section">
                 <p>Lawrence House provides a private room for each individual, with a range of communal facilities, including bathrooms, toilets, kitchens, laundry and a communal lounge, complete with pool table, games, books, TV and other items kindly donated to us. Lawrence House is a No Smoking building in all public areas. Smoking is allowed in some of the resident’s rooms only.
 </p>

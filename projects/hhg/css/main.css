@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     text-align: center;
-    background: rgb(81, 152, 57);
+    background: #0082FF;
     margin: 0px;
     margin-top: 40px;
 }
@@ -20,7 +20,7 @@ img.project-img {
 }
 
 .section {
-    background: #f0f0f0;
+    background: #f6f6f6;
     color: #202020;
     padding: 20px;
     border-radius: 10px;
@@ -33,11 +33,11 @@ img.project-img {
 
 a {
     color: #f0f0f0;
+    text-decoration: none;
 }
 
 p a {
     color: #004687;
-    text-decoration: none;
 }
 
 .googlemaps {
@@ -49,7 +49,7 @@ p {
     font-size: 1em;
 }
 
-#galleryIMG {
+.webPic {
     max-width: 550px;
     height: auto;
     padding-top: 10px;
@@ -64,6 +64,14 @@ p {
 
 h3 {
     font-size: 1.5em;
+}
+
+#fronPic {
+    padding: 0px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #0099FF;
 }
 
 @media (max-width: 1000px) {
@@ -103,7 +111,11 @@ h3 {
         font-size: 2em;
     }
     
-    #galleryIMG {
+    li {
+        font-size: 2em;
+    }
+    
+    .webPic {
         max-width: 800px;
         height: auto;
     }

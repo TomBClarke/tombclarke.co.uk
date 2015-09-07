@@ -8,8 +8,8 @@
     </head>
     <body>
         <div class="main">
-            <h2><a href="<?php echo $serv_dir; ?>res/pdf/Resident_Hbook.pdf">View our Resident Handbook</a></h2>
-            <h2><a href="<?php echo $serv_dir; ?>res/pdf/poetry_book.pdf">View our Poem Book</a></h2>
+            <h2><a href="<?php echo $serv_dir; ?>res/pdf/resident_hand_book.pdf">View our Resident Handbook &#9658;</a></h2>
+            <h2><a href="<?php echo $serv_dir; ?>res/pdf/poetry_book.pdf">View our Poem Book &#9658;</a></h2>
         </div>
         <?php include $comp_dir . 'php/footer.php'; ?>
     </body>

@@ -8,14 +8,10 @@
     width: 100%;
     text-align: center;
     color: #f0f0f0;
-    background: rgb(61, 132, 37);
+    background: #003DFF;
     font-size: 22pt;
     vertical-align: middle;
     z-index: 9999;
-}
-
-#header-nav a {
-    /* Would be nice o have words a little lower (by like 3px max) */
 }
 
 #header a {
@@ -67,21 +63,21 @@
 }
 
 .nav-list {
-    margin: 20px;
+    margin: 13px;
     text-align: center;
     list-style-type: none;
 }
 
 .nav-list li {
     border-bottom: 5px;
-    width: 93%;
+    width: 95%;
     border-bottom-style: solid;
-    border-bottom-color: rgb(61, 132, 37);
-    background: rgb(81, 152, 57);
+    border-bottom-color: #003DFF;
+    background: #0082FF;
 }
 
 .nav-list li:hover {
-    background: rgb(101, 172, 77);
+    background: #0099FF;
 }
 
 #desktop-nav {
@@ -90,11 +86,21 @@
     margin-top: 5px;
     left: 25%;
     right: 45%;
-    border-bottom-color: rgb(81, 152, 57);
+    border-bottom-color: #003DFF;
 }
 
 #desktop-nav li {
     margin: auto;
+}
+
+#footer-logo {
+    height: 50px;
+    width: 50px;
+}
+
+#donate-pic {
+    height: auto;
+    width: 190px;
 }
 
 @media (max-width: 1000px) {
@@ -116,11 +122,20 @@
         font-size: 15pt;
     }
     
+    li {
+        font-size: 1.5em;
+    }
+    
     .desktop {
         display: none;
     }
 
     .mobile {
         display: inline;
+    }
+    
+    #footer-logo {
+        height: 100px;
+        width: 100px;
     }
 }

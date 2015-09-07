@@ -4,7 +4,7 @@
 <!-- Setup dir -->
 <?php
     //For when using localhost:
-    $serv_dir = "/tombclarke/projects/hinckleyhomeless/";
+    $serv_dir = "/tombclarke/projects/hhg/";
     //For when using the proper server:
 //    $serv_dir = "/";
 ?>
