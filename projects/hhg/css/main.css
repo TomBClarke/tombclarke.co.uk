@@ -1,26 +1,20 @@
 body {
     font-family: sans-serif;
     text-align: center;
-    background: #0082FF;
+    background: rgb(0, 58, 255);
     margin: 0px;
     margin-top: 40px;
 }
 
 .main {
-    color: #f0f0f0;
+    color: white;
     margin: auto;
     padding: 20px;
     max-width: 600px;
 }
 
-img.project-img {
-    width: auto;
-    height: 200px;
-    padding: 10px;
-}
-
 .section {
-    background: #f6f6f6;
+    background: white;
     color: #202020;
     padding: 20px;
     border-radius: 10px;
@@ -32,7 +26,7 @@ img.project-img {
 }
 
 a {
-    color: #f0f0f0;
+    color: white;
     text-decoration: none;
 }
 
@@ -66,12 +60,12 @@ h3 {
     font-size: 1.5em;
 }
 
-#fronPic {
+#frontPic {
     padding: 0px;
     border: 5px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #0099FF;
+    border-color: rgb(40, 98, 255);
 }
 
 @media (max-width: 1000px) {
@@ -116,7 +110,7 @@ h3 {
     }
     
     .webPic {
-        max-width: 800px;
+        max-width: 700px;
         height: auto;
     }
     

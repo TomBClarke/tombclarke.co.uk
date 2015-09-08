@@ -7,8 +7,8 @@
     height: 40px;
     width: 100%;
     text-align: center;
-    color: #f0f0f0;
-    background: #003DFF;
+    color: white;
+    background: rgb(0, 0, 255);
     font-size: 22pt;
     vertical-align: middle;
     z-index: 9999;
@@ -16,23 +16,18 @@
 
 #header a {
     vertical-align: middle;
-    color: #f0f0f0;
+    color: white;
     text-decoration: none;
 }
 
-#header img {
-    width: auto;
-    height: 30px;
-}
-
 #footer {
-    position: sticky;
+    position: static;
     bottom: 0px;
     padding: 5px;
 }
 
 #footer a {
-    color: #f0f0f0;
+    color: white;
     text-decoration: underline;
 }
 
@@ -40,12 +35,11 @@
     border: 0px;
     margin: 0px;
     vertical-align: middle;
-    padding-top: 4px;
     height: 20px;
     bottom: 0px;
     width: 100%;
     text-align: center;
-    color: #f0f0f0;
+    color: white;
 }
 
 .desktop {
@@ -64,6 +58,7 @@
 
 .nav-list {
     margin: 13px;
+    margin-top: 0px;
     text-align: center;
     list-style-type: none;
 }
@@ -72,12 +67,12 @@
     border-bottom: 5px;
     width: 95%;
     border-bottom-style: solid;
-    border-bottom-color: #003DFF;
-    background: #0082FF;
+    border-bottom-color: rgb(0, 0, 255);
+    background: rgb(0, 58, 255);
 }
 
 .nav-list li:hover {
-    background: #0099FF;
+    background: rgb(40, 98, 255);
 }
 
 #desktop-nav {
@@ -86,7 +81,7 @@
     margin-top: 5px;
     left: 25%;
     right: 45%;
-    border-bottom-color: #003DFF;
+    border-bottom-color: rgb(0, 0, 255);
 }
 
 #desktop-nav li {
@@ -98,22 +93,25 @@
     width: 50px;
 }
 
-#donate-pic {
+.link-pic {
     height: auto;
     width: 190px;
 }
 
+#foter-links {
+    vertical-align: middle;
+}
+
 @media (max-width: 1000px) {
     #header {
-        height: 80px;
+        height: 100px;
         font-size: 44pt;
         text-align: left;
         padding-left: 5px;
     }
     
-    #header img {
-        padding-top: 5px;
-        height: 60px;
+    #mobile-text {
+        font-size: 1.3em;
     }
     
     #footer p {

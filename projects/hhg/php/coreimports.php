@@ -3,16 +3,13 @@
 
 <!-- Setup dir -->
 <?php
-    //For when using localhost:
-    $serv_dir = "/tombclarke/projects/hhg/";
-    //For when using the proper server:
-//    $serv_dir = "/";
+    $serv_dir = "/projects/hhg/";
 ?>
 
 <script> var serv_dir = "<?php print $serv_dir; ?>"; </script>
 
 <!-- Icon -->
-<link rel="icon" href="<?php echo $serv_dir; ?>res/img/favicon.png">
+<link rel="icon" href="<?php echo $serv_dir; ?>res/img/logos/favicon.png">
 
 <!-- CSS -->
 <link type="text/css" rel="stylesheet" href="<?php echo $serv_dir; ?>css/main.css"/>
