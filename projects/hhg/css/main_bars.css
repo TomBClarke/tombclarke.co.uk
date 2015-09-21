@@ -102,6 +102,11 @@
     vertical-align: middle;
 }
 
+#mobile-nav {
+    font-size: 30pt;
+    margin-top: 100px;
+}
+
 @media (max-width: 1000px) {
     #header {
         height: 100px;

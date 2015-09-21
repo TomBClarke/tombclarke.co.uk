@@ -17,7 +17,7 @@
                     <img class="project-img" src="../res/img/projects/hhg.png"/>
                     <h3><a href="hhg">View here (beta) &#9658;</a> | <span>Read about this &#x25BC;</span></h3>
                     <div>
-                        <p>As charity work, I have been working on a new website for Hinckley Homeless Group. For now, this link here is so the directors can see what I've done to see if they'd like to use it as the full site in place of what they currently have.</p>
+                        <p>As charity work, I have been working on a new website for Hinckley Homeless Group. For now, this link here is so the directors can see what I've done to see if they'd like to use it as the full site in place of their current site.</p>
                         <p>It is therefore worth noting that because this is effectively a development version lots of this could change, and at request will. To me, an important part of this website is to be mobile compatible, so please do view the website on a normal PC and a mobile phone to experience it in both 'modes'.</p>
                     </div>
                 </div>

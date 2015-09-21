@@ -33,7 +33,8 @@
                 <p>Lawrence House is wheelchair accessible and operates an Equality and Diversity Policy.</p>
                 <p>Hinckley Homeless Group will ensure that all existing and potential residents receive equality of opportunity and treatment.  We seek to ensure that no prospective resident receives less favourable treatment on the grounds of gender, race, colour, religious beliefs, disability, ethnic origins, sexual orientation, HIV status or personal circumstances</p>
             </div>
-            <h1><a href="../res/pdf/app_form.pdf">Apply now &#9658;</a></h1>
+            <h1><a href="../res/pdf/app_form.pdf">Download our application form here.</a></h1>
+            <h2>This should be completed, signed and returned to us. Please <a href="<?php echo $serv_dir . 'contact'; ?>">contact</a> the office if you need help with this form.</h2>
         </div>
         <?php include $comp_dir . 'php/footer.php'; ?>
     </body>

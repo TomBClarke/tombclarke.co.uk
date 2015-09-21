@@ -34,6 +34,10 @@ p a {
     color: #004687;
 }
 
+li a {
+    color: #004687;
+}
+
 .googlemaps {
     width: 550px;
     height: 600px;

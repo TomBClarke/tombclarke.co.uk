@@ -21,7 +21,7 @@
                 </p>
                 <h3>Other contact options:</h3>
                 <p>
-                    Tel: 01455890688<br/>
+                    Tel.: 01455 890688<br/>
                     Fax: 01455 618139<br/>
 
                     Email: <a href="mailto:info@hinckleyhomeless.com">info@hinckleyhomeless.com</a>

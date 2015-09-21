@@ -1,0 +1,67 @@
+{ "policies": [
+    {"title": "Safeguarding",
+     "articles": [
+         {"name": "Safeguarding Children Policy", "id": "LH00021"},
+         {"name": "Safeguarding Children Prodecures & Guidance", "id": "LH00022"},
+         {"name": "Safeguarding Adults Policy", "id": "LH00094"},
+         {"name": "Safeguarding Adults Procedures and Guidance", "id": "LH00095"},
+         {"name": "Procedure for Dealing With Self Harm", "id": "LH00133"}
+     ]},
+    {"title": "Confidentiality",
+     "articles": [
+         {"name": "Integrity at Work – Code of Conduct Policy", "id": "LH00181"},
+         {"name": "Integrity at Work – Procedure & Guidance", "id": "LH00189"},
+         {"name": "Confidentiality Policy", "id": "LH00024"},
+         {"name": "Confidentiality Guidance", "id": "LH00023"}
+     ]},
+    {"title": "Staff Management",
+     "articles": [
+         {"name": "Disciplinary Procedure", "id": "LH00015"},
+         {"name": "Staff Complaint / Grievance Procedure", "id": "LH00016"},
+         {"name": "Sickness Policy", "id": "LH00075"},
+         {"name": "Procedure for Managing Sickness Absence", "id": "LH00134"},
+         {"name": "Sickness Absence Management Definitions & Guidance", "id": "LH00137"},
+         {"name": "Staff Whistleblowing Policy", "id": "LH00036"},
+         {"name": "Staff Whistleblowing Procedure", "id": "LH00035"},
+         {"name": "Staff Whistleblowing Policy – Agreement Sharon Stacey", "id": "LH00097"},
+         {"name": "Staff Development & Training Policy", "id": "LH00155"},
+         {"name": "Recruitment Policy", "id": "LH00169"}
+     ]},
+    {"title": "Equality & Diversity",
+     "articles": [
+         {"name": "Equality & Diversity Policy", "id": "LH00030"},
+         {"name": "Equality & Diversity Action Plan", "id": "LH00193"}
+     ]},
+    {"title": "Health & Safety",
+     "articles": [
+         {"name": "H&S Policy", "id": "LH00025"},
+         {"name": "H&S Compliance Register", "id": "LH00157"},
+         {"name": "LH Fire Drill", "id": "LH00028"},
+         {"name": "LH Weekly Test of Break Glass Points", "id": "LH0029"},
+         {"name": "Actions by Staff in the event of a Fire or Fire Alarm", "id": "LH00147"},
+         {"name": "Procedure for Carrying out a Risk Assessment", "id": "LH00026"},
+         {"name": "Procedure for safe access - event of ice / snow", "id": "LH00167"},
+         {"name": "Business Continuity Policy", "id": "LH00176"}
+     ]},
+    {"title": "Lone Working & Outreach",
+     "articles": [
+         {"name": "Lone Working Policy", "id": "LH00017"},
+         {"name": "Lone Worker Guidance Notes", "id": "LH00005"},
+         {"name": "Procedure/Responding to Office Alarm", "id": "LH00194"},
+         {"name": "Outreach Work Policy", "id": "LH00149"},
+         {"name": "Outreach Work Guidance Notes", "id": "LH00150"}
+     ]},
+    {"title": "Resident Management",
+     "articles": [
+         {"name": "Policy on dealing with Referrals", "id": "LH00148"},
+         {"name": "Resident Management Procedure", "id": "LH00019"},
+         {"name": "Move On Planning", "id": "LH00018"},
+         {"name": "PDP Guidance", "id": "LH00020"},
+         {"name": "Guidance for Issuing Warnings & Evictions", "id": "LH00049"},
+         {"name": "Procedure for Issuing Warnings & Evictions", "id": "LH00061"},
+         {"name": "Definitions of Move-on Information for Clients", "id": "LH00140"},
+         {"name": "Harassment & Bullying Policy", "id": "LH00037"},
+         {"name": "Harassment & Bullying Procedure & Guidance", "id": "LH00038"}
+     ]}
+    ]
+}

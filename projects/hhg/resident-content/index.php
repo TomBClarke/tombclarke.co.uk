@@ -10,6 +10,10 @@
         <div class="main">
             <h2><a href="<?php echo $serv_dir; ?>res/pdf/resident_hand_book.pdf">View our Resident Handbook &#9658;</a></h2>
             <h2><a href="<?php echo $serv_dir; ?>res/pdf/poetry_book.pdf">View our Poem Book &#9658;</a></h2>
+            <h2>Some resident collages:</h2>
+            <img class="webPic" src="../res/img/collages/resident_collage_1.JPG"/>
+            <img class="webPic" src="../res/img/collages/resident_collage_2.JPG"/>
+            <img class="webPic" src="../res/img/collages/resident_collage_3.JPG"/>
         </div>
         <?php include $comp_dir . 'php/footer.php'; ?>
     </body>
