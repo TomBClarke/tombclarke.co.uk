@@ -20,7 +20,7 @@
     <ul class="nav-list" id="mobile-nav">
         <li><a href="<?php echo $serv_dir; ?>">Home</a></li>
         <li><a href="<?php echo $serv_dir; ?>projects">Projects</a></li>
-        <li><a href="<?php echo $serv_dir; ?>experience">Expereince</a></li>
+        <li><a href="<?php echo $serv_dir; ?>experience">Experience</a></li>
     </ul>
 
     <script>

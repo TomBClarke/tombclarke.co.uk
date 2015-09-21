@@ -17,6 +17,9 @@
         {"name": "MySQL", 
          "detail": "Used in Social Explorer at Majestic to hold the processed data and to update and backup the data set."
         },
+        {"name": "C#", 
+         "detail": "Used in BrumHack 2.0 where I created a game in Unity."
+        },
         {"name": "Visual Basic", 
          "detail": "Informally taught in my GCSE years."
         },
