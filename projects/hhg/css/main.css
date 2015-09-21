@@ -34,7 +34,7 @@ p a {
     color: #004687;
 }
 
-li a {
+.section a {
     color: #004687;
 }
 
@@ -70,6 +70,11 @@ h3 {
     border-style: solid;
     border-radius: 5px;
     border-color: rgb(40, 98, 255);
+}
+
+.cstd {
+    height: 200px;
+    vertical-align: middle;
 }
 
 @media (max-width: 1000px) {

@@ -14,6 +14,13 @@
     z-index: 9999;
 }
 
+#header-donate-link {
+    position: fixed;
+    right: 0px;
+    padding: 0px;
+    padding-right: 5px;
+}
+
 #header a {
     vertical-align: middle;
     color: white;
@@ -140,5 +147,9 @@
     #footer-logo {
         height: 100px;
         width: 100px;
+    }
+ 
+    #header-donate-link {
+        padding: 7px;
     }
 }

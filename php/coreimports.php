@@ -18,6 +18,9 @@
 <link type="text/css" rel="stylesheet" href="<?php echo $serv_dir; ?>css/main.css"/>
 <link type="text/css" rel="stylesheet" href="<?php echo $serv_dir; ?>css/main_bars.css"/>
 
+<!-- JS -->
+<script src="<?php print $serv_dir; ?>js/coreimports.js"></script>
+
 <!-- JQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 

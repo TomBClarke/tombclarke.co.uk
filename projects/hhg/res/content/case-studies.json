@@ -1,5 +1,6 @@
 { "studies": [
         {"study": "A male client aged 18 at start of receiving service / aged 19 when left (residence length 8 months)",
+         "gender": "man",
          "text": [
              "The client applied to Lawrence House (LH) following a breakdown in the family relationship. He had been living between the homes of his mother / stepfather and father / stepmother in the local area, and all relationships had become extremely strained. He was embarking on his final year of A’ Levels.  He had been living with other family members on a temporary basis.",
              "The client was studying Business Studies, Psychology and General Studies at a local further education college and required a great deal of support to encourage him to remain with his studies throughout his residency; certainly at a few points he was ready to leave his studies completely.  He suffered poor motivation and uncertainty about what he wanted to do in the future, combined with the issues surrounding the breakdown in his family situation and social isolation.",
@@ -13,15 +14,16 @@
              "This client has remained in contact with staff at LH and is now in the second year of his course."
          ]},
         {"study": "Male aged 19 at move in (residence length 7 months)",
-             "text": [
-                 "The client applied for a place at Lawrence House on the recommendation of a local voluntary agency that works with young people.",
-                 "He moved in, following quite a prolonged period of homelessness during which time he had been living with friends, usually sleeping on sofas.",
-                 "The lack of settled accommodation was as a result of the breakdown of his relationship with his mother and the loss of a steady job. In addition he had committed motoring offences which brought him to the attention of the police.",
-                 "Subsequently, he suffered from quite severe depression and illness and significant help was given  to ensure that he accessed the support needed from his GP and local counsellors.",
-                 "The client was very keen to find work as opposed to education or voluntary work (although he did take part in some) and so support was provided with job searching, CV-writing and interview techniques. He was successful in obtaining paid employment on two occasions during his residency."
-                 ],
-             "outcomes": [
-                 "During the seven months that the client was resident, he developed strong daily living skills, such as cooking and budgeting. He required a lot of input in sustaining his tenancy and keeping house rules. This provided him with a sound basis when he moved on very positively to a room in a shared house. He was in part time employment and had developed strong social and family relationships, something that was missing prior to his residency."
+         "gender": "man",
+         "text": [
+             "The client applied for a place at Lawrence House on the recommendation of a local voluntary agency that works with young people.",
+             "He moved in, following quite a prolonged period of homelessness during which time he had been living with friends, usually sleeping on sofas.",
+             "The lack of settled accommodation was as a result of the breakdown of his relationship with his mother and the loss of a steady job. In addition he had committed motoring offences which brought him to the attention of the police.",
+             "Subsequently, he suffered from quite severe depression and illness and significant help was given  to ensure that he accessed the support needed from his GP and local counsellors.",
+             "The client was very keen to find work as opposed to education or voluntary work (although he did take part in some) and so support was provided with job searching, CV-writing and interview techniques. He was successful in obtaining paid employment on two occasions during his residency."
+             ],
+         "outcomes": [
+             "During the seven months that the client was resident, he developed strong daily living skills, such as cooking and budgeting. He required a lot of input in sustaining his tenancy and keeping house rules. This provided him with a sound basis when he moved on very positively to a room in a shared house. He was in part time employment and had developed strong social and family relationships, something that was missing prior to his residency."
          ]}
     ]
 }

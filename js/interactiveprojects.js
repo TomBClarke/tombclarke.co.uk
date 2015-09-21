@@ -8,7 +8,7 @@ function setupProjects() {
             } else {
                 $(itemHolder).slideUp();
             }
-            
+            this.innerHTML = (switchArrow(this.innerHTML));
         };
         $(itemHolder).hide();
     });

@@ -48,6 +48,48 @@
     color: #f0f0f0;
 }
 
+#mobile-nav {
+    font-size: 40pt;
+    margin-top: 100px;
+}
+
+#mobile-text {
+    text-align: center;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.nav-list {
+    margin: 13px;
+    margin-top: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav-list li {
+    border-bottom: 5px;
+    width: 95%;
+    border-bottom-style: solid;
+    border-bottom-color: #a71c17;
+    background: #b81d18;
+}
+
+.nav-list li:hover {
+    background: #c82d28;
+}
+
+.desktop {
+    display: inline;
+}
+
+.main {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
 @media (max-width: 1000px) {
     #header {
         height: 80px;
@@ -66,5 +108,13 @@
         height: 34px;
         padding-top: 14px;
         font-size: 15pt;
+    }
+    
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: inline;
     }
 }
