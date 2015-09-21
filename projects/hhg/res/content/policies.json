@@ -27,12 +27,12 @@
          {"name": "Staff Development & Training Policy", "id": "LH00155"},
          {"name": "Recruitment Policy", "id": "LH00169"}
      ]},
-    {"title": "Equality & Diversity",
+    {"title": "Equality and Diversity",
      "articles": [
          {"name": "Equality & Diversity Policy", "id": "LH00030"},
          {"name": "Equality & Diversity Action Plan", "id": "LH00193"}
      ]},
-    {"title": "Health & Safety",
+    {"title": "Health and Safety",
      "articles": [
          {"name": "H&S Policy", "id": "LH00025"},
          {"name": "H&S Compliance Register", "id": "LH00157"},
@@ -43,7 +43,7 @@
          {"name": "Procedure for safe access - event of ice / snow", "id": "LH00167"},
          {"name": "Business Continuity Policy", "id": "LH00176"}
      ]},
-    {"title": "Lone Working & Outreach",
+    {"title": "Lone Working and Outreach",
      "articles": [
          {"name": "Lone Working Policy", "id": "LH00017"},
          {"name": "Lone Worker Guidance Notes", "id": "LH00005"},

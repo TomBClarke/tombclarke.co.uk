@@ -5,11 +5,22 @@
     <head>
         <title>Experience</title>
         <?php $comp_dir = "../"; include $comp_dir . 'php/coreimports.php'; ?>
+        <script src="<?php echo $serv_dir; ?>js/experience.js"></script>
     </head>
-    <body>
+    <body onload="initExperiences();">
         <div class="main">
             <h1>My Experience</h1>
             <h2>Skills</h2>
+            <h4></h4>
+            <div class="section">
+                <table id="table-skills">
+                    <tr>
+                        <td class="table-skill-header">Skill</td>
+                        <td class="table-skill-header">My Experience in it</td>
+                    </tr>
+                </table>
+            </div>
+            <h2>Education</h2>
             <p>To be written...</p>
             <h2>Work</h2>
             <p>To be written...</p>

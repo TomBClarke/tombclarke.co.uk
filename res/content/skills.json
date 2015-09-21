@@ -1,0 +1,33 @@
+{ "skills": [
+        {"name": "Java", 
+         "detail": "First year university module, robot programming, small independant projects and some small programs for use at Majestic (inlcuding stress-testing our website)."
+        },
+        {"name": "OCaml",
+         "detail": "Half of the foundations of computer science module I completed."
+        },
+        {"name": "JavaScript and jQuery", 
+         "detail": "Taught in information and the web as a first year module, and heavily used in my Majestic internship."
+        },
+        {"name": "HTML and CSS", 
+         "detail": "Taught in A-level IT and first year module, expanded upon in my Majestic internship."
+        },
+        {"name": "D3.js", 
+         "detail": "Used to vsualise the big data Majestic hadon offer during my internship there."
+        },
+        {"name": "MySQL", 
+         "detail": "Used in Social Explorer at Majestic to hold the processed data and to update and backup the data set."
+        },
+        {"name": "Visual Basic", 
+         "detail": "Informally taught in my GCSE years."
+        },
+        {"name": "Team Work", 
+         "detail": "Demonstated well in robot programming, BrumHack, and my Majestic internship"
+        },
+        {"name": "Presenting", 
+         "detail": "Representing Majestic at Leeds Hack."
+        },
+        {"name": "Product Testing", 
+         "detail": "Four weeks intensively working on testing a new Android App for Crane-Electronics."
+        }
+    ]
+}

@@ -67,6 +67,27 @@ h4 {
     font-size: 1em;
 }
 
+#table-skills {
+    border-spacing: 0.5rem;
+}
+
+#table-skills td {
+    border-bottom: 1px solid #202020;
+    padding: 2px;
+}
+
+.table-skill-header {
+    font-weight: 100;
+}
+
+.td-skill {
+    text-align: center;
+}
+
+.td-exp {
+    text-align: justify;
+}
+
 @media (max-width: 1000px) {
     body {
         margin-top: 80px;
