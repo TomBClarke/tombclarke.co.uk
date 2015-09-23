@@ -46,7 +46,7 @@ a {
     color: #202020;
 }
 
-p a {
+.section a {
     color: #004687;
 }
 
@@ -64,6 +64,10 @@ h3 {
 
 h4 {
     margin-top: 0px;
+    font-size: 1em;
+}
+
+table {
     font-size: 1em;
 }
 
@@ -86,6 +90,38 @@ h4 {
 
 .td-exp {
     text-align: justify;
+}
+
+.td-ed-name {
+    font-weight: bold;
+    padding: 4px;
+}
+
+.td-ed-time {
+    font-weight: 100;
+}
+
+.td-ed-acc {
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+
+.td-ed-pic {
+    vertical-align: middle;
+}
+
+.td-ed-pic img {
+    height: 100px;
+}
+
+.work-logo {
+    padding-top: 20px;
+    max-width: 200px;
+}
+
+#exp-nav span {
+    cursor: pointer;
+    cursor: hand;
 }
 
 @media (max-width: 1000px) {
@@ -123,5 +159,13 @@ h4 {
     
     p {
         font-size: 2em;
+    }
+    
+    table {
+        font-size: 2em;
+    }
+    
+    .td-ed-pic img {
+        height: 150px;
     }
 }

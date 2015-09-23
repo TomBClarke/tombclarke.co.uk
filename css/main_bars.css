@@ -35,6 +35,7 @@
 }
 
 #footer p {
+    z-index: 9999;
     border: 0px;
     margin: 0px;
     vertical-align: middle;
@@ -49,7 +50,7 @@
 }
 
 #mobile-nav {
-    font-size: 40pt;
+    font-size: 60pt;
     margin-top: 100px;
 }
 

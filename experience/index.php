@@ -10,20 +10,37 @@
     <body onload="initExperiences();">
         <div class="main">
             <h1>My Experience</h1>
-            <h2>Skills</h2>
-            <h4></h4>
-            <div class="section">
-                <table id="table-skills">
-                    <tr>
-                        <td class="table-skill-header">Skill</td>
-                        <td class="table-skill-header">My Experience in it</td>
-                    </tr>
-                </table>
+            <h2 id="exp-nav"></h2>
+            
+            <div id="skills">
+                <h1>Skills</h1>
+                <h4></h4>
+                <div class="section">
+                    <table id="table-skills">
+                        <tr>
+                            <td class="table-skill-header">Skill</td>
+                            <td class="table-skill-header">My Experience in it</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-            <h2>Education</h2>
-            <p>To be written...</p>
-            <h2>Work</h2>
-            <p>To be written...</p>
+            
+            <div id="education">
+                <h1>Education</h1>
+                <h4></h4>
+                <div class="section">
+                    <table id="table-education">
+                    </table>
+                </div>
+            </div>
+            
+            <div id="work">
+                <h1>Work</h1>
+                <h4>Jobs, Internships and Voluntary Positions</h4>
+                <div class="section" id="work-div">
+            </div>
+                
+            </div>
         </div>
     </body>
 </html>

@@ -1,0 +1,18 @@
+{ "education": [
+        {"name": "University of Birmingham", 
+         "time": "2014 - 2018",
+         "accomplished": "BSc Computer Science with Industrial Year - 85.0% in first year.",
+         "logo": "uob"
+        },
+        {"name": "John Cleveland College - Sixth Form", 
+         "time": "2012 - 2014",
+         "accomplished": "A* in Mathematics, A in I.T. and Physics, A in an EPQ.",
+         "logo": "jcc"
+        },
+        {"name": "John Cleveland College", 
+         "time": "2010 - 2012",
+         "accomplished": "3 A*s, 6 As, 1 B and OCR Level 2 National Double Award in ICT (Distinction).",
+         "logo": "jcc"
+        }
+    ]
+}

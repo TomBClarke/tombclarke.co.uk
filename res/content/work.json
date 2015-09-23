@@ -1,0 +1,51 @@
+{ "work": [
+        {"place": "Hinckley Homeless Group",
+         "title": "Web Designer",
+         "time": "September 2015",
+         "responsibilities": "Creating a new website for them - see more in projects.",
+         "logo": "hhg",
+         "link": "http://hinckleyhomeless.com",
+         "type": "Voluntary"
+        },
+        {"place": "Majestic",
+         "title": "Intern Developer",
+         "time": "July 2015 - September 2015",
+         "responsibilities": "Developing data visulasations using the Majestic API - see more in projects.",
+         "logo": "majestic",
+         "link": "https://majestic.com",
+         "type": "Internship"
+        },
+        {"place": "Spar",
+         "title": "Store Supervisor",
+         "time": "October 2014 - Present",
+         "responsibilities": "Maintaining the shop, managing sales assisstants and handling customer queries",
+         "logo": "spar",
+         "link": "http://spar.co.uk",
+         "type": "Job"
+        },
+        {"place": "Crane-Electronics",
+         "title": "Product Tester",
+         "time": "Summer 2014",
+         "responsibilities": "Black box testing on a new Android App the company had developed.",
+         "logo": "ce",
+         "link": "http://crane-electronics.com",
+         "type": "Job"
+        },
+        {"place": "John Cleveland College",
+         "title": "Tutor",
+         "time": "Autumn 2012, Autumn 2013 - Summer 2014",
+         "responsibilities": "Helping support an after school class in GCSE level Computing and mentoring two students in GCSE and AS-Level Mathematics.",
+         "logo": "jcc",
+         "link": "http://jcc.leics.sch.uk",
+         "type": "Voluntary"
+        },
+        {"place": "Aston Martin",
+         "title": "IT Support",
+         "time": "July 2011",
+         "responsibilities": "I helped built new computers for the production lines and deploy them.",
+         "logo": "astonmartin",
+         "link": "http://astonmartin.com",
+         "type": "Work Experience"
+        }
+    ]
+}
