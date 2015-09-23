@@ -41,10 +41,8 @@
                         <p>Myself, Rowan Cole, Cameron Angus and Sebastian Dică as a team completed our first 24-hour hackathon - BrumHack 2.0. This is where me, Rowan and Misha first met Majestic and got a chance to use their data to do whateve we wanted. So, my team decided to make a fighting game with player atributes decided by website statistics determined from Majestic's data.</p>
                         <p>We finally settled on a list of websites the player could chose from, and attributes like strength and speed we determined by their various scores on Majestic (for example Trust Flow). We built our game in Unity and C# (which I was lead programmer in), but to deal with the web modules of C# not being supported by Unity we created seperate C# programs to use the connectors to query the Majestic API. Once we had the data, two players could battle their chosen websites until a winner was decided.</p>
                         <p>This experience was fantastic for me, as I learnt a lot of new things about programming, obviously with a focus on C# and game design, met Majestic who I kept in contact with and eventually completed a very successful summer internship with, and was introduced to 'hackathons'. What I learnt at the event has helped in many ways and opened server new doors already, and made me want to do many more hacks in the future, the next one being BrumHack 3 in October.</p>
-                        <p>Unfortunately, at the current time the game is broken, but if I can find a working version or find a simple fix a download link for it will be placed above.</p>
                     </div>
                 </div>
-                <h3>More coming soon...</h3>
             </div>
         </div>
     </body>
