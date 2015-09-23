@@ -7,7 +7,7 @@ function loadPolicies() {
     
     policies.forEach(function(p, pi) {
         $('#policies').append(
-            $('<h3 id=\'p' + pi + '\'></h3>').text(p.title + "▼")
+            $('<h3 id=\'p' + pi + '\'></h3>').text(p.title + " ▼")
         );
         $('#policies').append(
             $('<ul id=\'pl' + pi + '\'></ul>')
