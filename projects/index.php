@@ -43,6 +43,17 @@
                         <p>This experience was fantastic for me, as I learnt a lot of new things about programming, obviously with a focus on C# and game design, met Majestic who I kept in contact with and eventually completed a very successful summer internship with, and was introduced to 'hackathons'. What I learnt at the event has helped in many ways and opened server new doors already, and made me want to do many more hacks in the future, the next one being BrumHack 3 in October.</p>
                     </div>
                 </div>
+                <h2>Extended Project Qualification - Time Table O'Matic</h2>
+                <h4>2013-2014</h4>
+                <div class="section">
+                    <img class="project-img" src="../res/img/projects/ttom.png"/>
+                    <h3><a href="https://play.google.com/store/apps/details?id=appinventor.ai_tomclarke96_TC.TimeTableOMatic&hl=en_GB">View here &#9658;</a> | <span>Read about this &#x25BC;</span></h3>
+                    <div>
+                        <p>For my EPQ, while completing my final year of A-Levels, I created an Anndroid App - the Time Table O'Matic. Inspiration for this can from my IT teacher (the objective-o-matic) which helped students keep track of their current objectives in class, and clearly display how there doing, including a history of what they had already done. After speaking with them, I came up with this app to hold sudents' time table and target grades.</p>
+                        <p>As I had never done any major programming project before this, and I knew I wanted to make an app, I was recommended the <a target="_blank" href="http://appinventor.mit.edu">M.I.T. App Inventor</a> (version 1 at the time I did the project). The learning experience was good as I learnt more about how programming worked from previous, generally informal knowledge with focus on app development. While I will not be using this again not I can program to a decent level, I appreciated what I learnt, and know some good and bad things to do. Some parts of the programming was difficult due to the environment, and others due to me being new to it and doing the project independantly, but I was able to manage the project effectively (and create the full report on it for the EPQ submission) and created an app that was recieved well by peers.</p>
+                        <p>At time of writing (23/09/2015) the app has had a total of 183 installs since it's original release on 15th of November 2013.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
