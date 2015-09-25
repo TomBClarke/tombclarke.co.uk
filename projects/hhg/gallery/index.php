@@ -14,8 +14,8 @@
                 <img class="webPic" id="galleryIMG" src=""></img>
                 <br/>
                 <h3>Picture <span id="curPic">x</span> of <span id="picSum">y</span></h3>
-                <button class="gallerybuttons" id="left" onclick="advancePic(-1);"><h3>&larr;</h3></button>
-                <button class="gallerybuttons" id="right" onclick="advancePic(1);"><h3>&rarr;</h3></button>
+                <button class="gallerybuttons" id="left" onclick="advancePic(-1, false);"><h3>&larr;</h3></button>
+                <button class="gallerybuttons" id="right" onclick="advancePic(1, false);"><h3>&rarr;</h3></button>
             </div>
         </div>
         <?php include $comp_dir . 'php/footer.php'; ?>

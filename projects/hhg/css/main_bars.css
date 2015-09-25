@@ -82,6 +82,10 @@
     background: rgb(40, 98, 255);
 }
 
+.boldmouseover:hover {
+    font-weight: bold;
+}
+
 #desktop-nav {
     width: 30%;
     position: fixed;
@@ -114,6 +118,10 @@
     margin-top: 100px;
 }
 
+.mobiledonate {
+    font-size: 1.4em;
+}
+
 @media (max-width: 1000px) {
     #header {
         height: 100px;
@@ -123,7 +131,7 @@
     }
     
     #mobile-text {
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
     
     #footer p {

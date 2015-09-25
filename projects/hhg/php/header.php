@@ -12,7 +12,6 @@
             <li><a href="<?php echo $serv_dir . 'gallery'; ?>">Gallery</a></li>
             <li><a href="<?php echo $serv_dir . 'case-studies'; ?>">Case Studies</a></li>
             <li><a href="<?php echo $serv_dir . 'resident-content'; ?>">Resident Content</a></li>
-            <li><a href="<?php echo $serv_dir . 'trustees'; ?>">Trustees</a></li>
         </ul>
         
         <script>
@@ -37,8 +36,9 @@
         <span id="mobile-text">Menu &#x25BC;</span>
     </span>
     
-    <span id="header-donate-link">
-        <a target="_blank" href="https://mydonate.bt.com/charities/hinckleyhomelessgroup">Donate!</a>
+    <span class="boldmouseover" id="header-donate-link">
+        <a target="_blank" href="https://mydonate.bt.com/charities/hinckleyhomelessgroup" class="desktop">Donate here!</a>
+        <a target="_blank" href="https://mydonate.bt.com/charities/hinckleyhomelessgroup" class="mobile mobiledonate">Click to donate</a>
     </span>
 </div>
 
@@ -50,7 +50,6 @@
         <li><a href="<?php echo $serv_dir . 'gallery'; ?>">Gallery</a></li>
         <li><a href="<?php echo $serv_dir . 'case-studies'; ?>">Case Studies</a></li>
         <li><a href="<?php echo $serv_dir . 'resident-content'; ?>">Resident Content</a></li>
-        <li><a href="<?php echo $serv_dir . 'trustees'; ?>">Trustees</a></li>
         <li><a href="<?php echo $serv_dir . 'app-info'; ?>">Application Info</a></li>
         <li><a href="<?php echo $serv_dir . 'faq'; ?>">FAQs</a></li>
         <li><a href="<?php echo $serv_dir . 'contact'; ?>">Contact Us</a></li>

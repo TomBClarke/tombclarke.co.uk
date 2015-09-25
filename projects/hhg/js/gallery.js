@@ -1,6 +1,7 @@
 var imgs,
     imgIndex = 0,
-    imgSum;
+    imgSum,
+    scrollImages = true;
 
 function createGallery() {
     var imgsstring = $.ajax({
@@ -19,13 +20,32 @@ function createGallery() {
     
     $('#curPic').text(imgIndex + 1);
     $('#picSum').text(imgSum);
+    
+    beginAutoScroll();
 }
 
-function advancePic(n) {
+function advancePic(n, continuetoscroll) {
+    scrollImages = continuetoscroll;
+    
     imgIndex = (imgIndex + n) % (imgSum);
     if(imgIndex == -1)
         imgIndex = imgSum - 1;
     
-    $('#galleryIMG').attr("src", imgs[imgIndex]);
+    $("#galleryIMG").fadeOut(500, function() {
+        $(this).attr("src", imgs[imgIndex]);
+        $(this).load(function () {
+            $(this).fadeIn(500);
+        });
+    });
+    
     $('#curPic').text(imgIndex + 1);
+}
+
+function beginAutoScroll() {
+    setTimeout(function() {
+        if(scrollImages) {
+            advancePic(1, true);
+            beginAutoScroll();
+        }
+    }, 4000);
 }
