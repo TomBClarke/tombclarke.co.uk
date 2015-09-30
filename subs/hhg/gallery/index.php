@@ -11,7 +11,9 @@
         <div class="main">
             <h1>Gallery of Lawrence House</h1>
             <div class="section">
-                <img class="webPic" id="galleryIMG" src=""></img>
+                <div id="galleryIMGHolder">
+                    <img class="webPic" id="galleryIMG" src=""></img>
+                </div>
                 <br/>
                 <h3>Picture <span id="curPic">x</span> of <span id="picSum">y</span></h3>
                 <button class="gallerybuttons" id="left" onclick="advancePic(-1, false);"><h3>&larr;</h3></button>

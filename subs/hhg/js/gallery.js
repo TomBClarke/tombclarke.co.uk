@@ -34,11 +34,10 @@ function advancePic(n, continuetoscroll) {
     $("#galleryIMG").fadeOut(500, function() {
         $(this).attr("src", imgs[imgIndex]);
         $(this).load(function () {
+            $('#curPic').text(imgIndex + 1);
             $(this).fadeIn(500);
         });
     });
-    
-    $('#curPic').text(imgIndex + 1);
 }
 
 function beginAutoScroll() {
