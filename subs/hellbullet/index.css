@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main {
+    outline: none;
+}
+
+#info {
+    position: fixed;
+    width: 200px;
+    font-size: 2em;
+    bottom: 10px;
+    right: 40px;
+    display: none;
+    z-index: 9999;
+}
+
+.box {
+    color: black;
+    text-align: center;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    margin-left, margin-right: auto;
+    text-align: justify;
+}
+
+.box button {
+    width: 200px;
+    height: 50px;
+}
+
+#endgameholder {
+    font-size: 4em;
+}
+
+#startgameholder {
+    display: block;
+}
+
+#inst {
+    margin: auto;
+    width: 400px;
+}

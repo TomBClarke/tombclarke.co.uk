@@ -14,9 +14,9 @@ function setupStudies() {
         var tdt = $('<td></td>').attr("class", "cstd");
         tdt.append($('<img class=\"csperson\" id=\'p' + si + '\'></img>').attr("src", serv_dir + "res/img/people/" + s.gender + "-silhouette.png"));
         table.append(tdt, tdp);
-        $('.main').append(table);
+        $('#cs').append(table);
         
-        $('.main').append($('<div class=\'section\' id=\'t' + si + '\'></div>'));
+        $('#cs').append($('<div class=\'section\' id=\'t' + si + '\'></div>'));
         
         s.text.forEach(function (t) {
             $('#t' + si).append($('<p></p>').text(t));

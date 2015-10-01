@@ -1,12 +1,21 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 
 <html>
     <head>
         <title>About Us</title>
         <?php $comp_dir = "../"; include $comp_dir . 'php/coreimports.php'; ?>
         <script src="<?php print $serv_dir; ?>js/policies.js"></script>
-        <script src="<?php print $serv_dir; ?>js/about.js"></script>
+        <script src="<?php print $serv_dir; ?>js/multipage.js"></script>
+        
+        <script>
+            var exps = [
+                { "name": "Lawrence House", "id": "lh" },
+                { "name": "Staff", "id": "staff" },
+                { "name": "Management Committee", "id": "tmc" },
+                { "name": "Trustees", "id": "palh" }
+            ];
+        </script>
+        
     </head>
     <body onload="loadPolicies(); setupNav();">
         <div class="main">

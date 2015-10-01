@@ -1,10 +1,3 @@
-var exps = [
-    { "name": "Lawrence House", "id": "lh" },
-    { "name": "Staff", "id": "staff" },
-    { "name": "Management Committee", "id": "tmc" },
-    { "name": "Trustees", "id": "palh" }
-];
-
 function setupNav() {
     exps.forEach(function(e, i) {
         $('#about-nav').append(
@@ -17,7 +10,7 @@ function setupNav() {
         );
     });
     
-    selectSection(0);
+    quickSelectSection(0);
 }
 
 function selectSection(index) {
@@ -30,6 +23,20 @@ function selectSection(index) {
     
     setTimeout((function() {
         $('#' + exps[index].id).fadeIn();
+        $('#' + exps[index].id + '-selector').css("text-decoration", "underline");
+    }), 500);
+}
+
+function quickSelectSection(index) {
+    for(var i = 0; i < exps.length; i++) {
+        if(i != index) {
+            $('#' + exps[i].id).hide();
+            $('#' + exps[i].id + '-selector').css("text-decoration", "none");
+        }
+    }
+    
+    setTimeout((function() {
+        $('#' + exps[index].id).show();
         $('#' + exps[index].id + '-selector').css("text-decoration", "underline");
     }), 500);
 }

@@ -15,6 +15,8 @@
 }
 
 #header-donate-link {
+/*    background: cyan;*/
+/*    color: #00008B;*/
     position: fixed;
     right: 0px;
     padding: 0px;
@@ -110,6 +112,7 @@
 }
 
 #foter-links {
+    padding: 10px;
     vertical-align: middle;
 }
 
@@ -120,6 +123,16 @@
 
 .mobiledonate {
     font-size: 1.4em;
+}
+
+@media (min-width: 1000px) {
+    #fb-custom {
+        position: fixed;
+        bottom: 0px;
+        left: 73%;
+        width: 350;
+        display: none;
+    }   
 }
 
 @media (max-width: 1000px) {

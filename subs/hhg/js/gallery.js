@@ -43,7 +43,8 @@ function advancePic(n, continuetoscroll) {
 function beginAutoScroll() {
     setTimeout(function() {
         if(scrollImages) {
-            advancePic(1, true);
+            if($('#gall').is(':visible'))
+                advancePic(1, true);
             beginAutoScroll();
         }
     }, 4000);
