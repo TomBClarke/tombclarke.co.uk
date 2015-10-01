@@ -4,16 +4,14 @@ var ctx,
     inPlay,
     arrowkeys = [false, false, false, false],
     shootkeys = [false, false, false, false],
-    player,
+    lastX = 0, lastY = 0,
+    guy,
     sprites = [],
     bots = [],
     shoots = [],
     toRemoveBots = [],
     toRemoveShots = [],
-    lives,
-    invincible,
-    canShoot,
-    botkills;
+    timer;
 
 function startGame() {
     var main = document.getElementById("main");
@@ -30,40 +28,54 @@ function startGame() {
 
     main.onkeydown = function(e) {
         var k = e.keyCode;
-        if (k == 65 || k == 87 || k == 68 || k == 83) {
-            shootkeys = [false, false, false, false];
+        if (k === 65 || k === 87 || k === 68 || k === 83) {
+            var now = Date.now();
             switch (k) {
                 case 65:
                     shootkeys[3] = true;
+                    if (now - lastX > 1000)
+                        shootkeys[0] = shootkeys[2] = false;
+                    lastY = now;
+                    shootkeys[1] = false;
                     break;
                 case 87:
                     shootkeys[0] = true;
+                    if (now - lastY > 1000)
+                        shootkeys[1] = shootkeys[3] = false;
+                    lastX = now;
+                    shootkeys[2] = false;
                     break;
                 case 68:
                     shootkeys[1] = true;
+                    if (now - lastX > 1000)
+                        shootkeys[0] = shootkeys[2] = false;
+                    lastY = now;
+                    shootkeys[3] = false;
                     break;
                 case 83:
                     shootkeys[2] = true;
+                    if (now - lastY > 1000)
+                        shootkeys[1] = shootkeys[3] = false;
+                    lastX = now;
+                    shootkeys[0] = false;
                     break;
             }
         }
-
-        arrowkeys[k - 37] = true;
+        if (k > 36 && k < 41)
+            arrowkeys[k - 37] = true;
     };
 
     main.onkeyup = function(e) {
-        arrowkeys[e.keyCode - 37] = false;
+        var k = e.keyCode;
+        if (k > 36 && k < 41)
+            arrowkeys[k - 37] = false;
     };
 
     ctx = main.getContext("2d");
 
     arrowkeys = [false, false, false, false];
     shootkeys = [false, false, false, false];
-    lives = 3;
-    botkills = 0;
-    invincible = false;
     inPlay = true;
-    canShoot = true;
     sprites = [];
     bots = [];
     shoots = [];
@@ -71,9 +83,8 @@ function startGame() {
 
     sprites.push(new BackGround());
 
-    var guy = new Guy();
+    guy = new Guy();
     sprites.push(guy);
-    player = guy;
 
 
     tick();
@@ -81,8 +92,8 @@ function startGame() {
 
 function tick() {
     setTimeout(function() {
-        $('#lives').text(lives);
-        $('#bots').text(botkills);
+        $('#lives').text(guy.lives);
+        $('#bots').text(guy.botkills);
 
         if (Math.random() < 0.01) {
             var newBot = new Bot();
@@ -90,12 +101,8 @@ function tick() {
             bots.push(newBot);
         }
 
-        player.update();
-
-        shootkeys.forEach(function(s, si) {
-            if (s)
-                shoot(si);
-        });
+        guy.update();
+        guy.shoot();
 
         shoots.forEach(function(s) {
             s.update();
@@ -110,14 +117,14 @@ function tick() {
                 }
             });
 
-            if (isColliding(b, player) && (toRemoveBots.indexOf(b) == -1)) {
+            if (isColliding(b, guy) && (toRemoveBots.indexOf(b) === -1)) {
                 toRemoveBots.push(b);
 
-                if (!invincible) {
-                    lives--;
-                    invincible = true;
+                if (!guy.invincible) {
+                    guy.lives--;
+                    guy.invincible = true;
 
-                    if (lives < 1) {
+                    if (guy.lives < 1) {
                         $('#endgameholder').show();
                         $('#main').hide();
                         $('#info').hide();
@@ -128,16 +135,16 @@ function tick() {
                     }
 
                     setTimeout(function() {
-                        invincible = false;
+                        guy.invincible = false;
                     }, 3000);
                 }
             }
         });
 
-        sprites.move(sprites.indexOf(player), sprites.length - 1);
+        sprites.move(sprites.indexOf(guy), sprites.length - 1);
 
         toRemoveBots.forEach(function(o) {
-            botkills++;
+            guy.botkills++;
             var boti = bots.indexOf(o);
             if (boti > -1)
                 bots.splice(boti, 1);
@@ -170,17 +177,24 @@ function tick() {
 }
 
 function BackGround() {
+    
     this.draw = function() {
-        $('#info').css("color", invincible ? "#FFF" : "#000");
-        ctx.fillStyle = invincible ? "#000000" : "#FFFFFF";
+        $('#info').css("color", guy.invincible ? "#FFF" : "#000");
+        ctx.fillStyle = guy.invincible ? "#000000" : "#FFFFFF";
         ctx.fillRect(0, 0, width, height);
     };
+    
 }
 
 function Guy() {
+    
     this.lX = width / 2;
     this.lY = height / 2;
     this.size = 20;
+    this.lives = 3;
+    this.invincible = false;
+    this.botkills = 0;
+    this.canShoot = true;
 
     this.update = function() {
         var speed = 1.5;
@@ -202,14 +216,37 @@ function Guy() {
         if (this.lY > height - this.size)
             this.lY = height - this.size;
     };
+    
+    this.shoot = function() {
+        if (this.canShoot) {
+            var keyArr = [];
+            shootkeys.forEach(function(s, si) {
+                if (s)
+                    keyArr.push(si);
+            });
+            if (keyArr.length === 0) return;
 
+            this.canShoot = false;
+            var newShot = new Shot(this.lX + (this.size / 2),
+                                   this.lY + (this.size / 2), keyArr);
+            shoots.push(newShot);
+            sprites.push(newShot);
+
+            setTimeout(function() {
+                guy.canShoot = true; // Must be guy, because scope.
+            }, 100);
+        }
+    };
+    
     this.draw = function() {
-        ctx.fillStyle = invincible ? "#FFFF00" : "#000000";
+        ctx.fillStyle = this.invincible ? "#FFFF00" : "#000000";
         ctx.fillRect(this.lX, this.lY, this.size, this.size);
     };
+    
 }
 
 function Shot(startX, startY, direction) {
+    
     this.lX = startX;
     this.lY = startY;
     this.size = 5;
@@ -217,20 +254,22 @@ function Shot(startX, startY, direction) {
 
     this.update = function() {
         var speed = 3;
-
-        switch (this.direction) {
-            case 0:
-                this.lY -= speed;
-                break;
-            case 1:
-                this.lX += speed;
-                break;
-            case 2:
-                this.lY += speed;
-                break;
-            case 3:
-                this.lX -= speed;
-                break;
+        
+        for (var i = 0; i < this.direction.length; i++) {
+            switch (this.direction[i]) {
+                case 0:
+                    this.lY -= speed;
+                    break;
+                case 1:
+                    this.lX += speed;
+                    break;
+                case 2:
+                    this.lY += speed;
+                    break;
+                case 3:
+                    this.lX -= speed;
+                    break;
+            }
         }
 
         if ((this.lX < 0) || (this.lY < 0) || (this.lX > (width - this.size)) || (this.lY > (height - this.size))) {
@@ -242,17 +281,21 @@ function Shot(startX, startY, direction) {
         ctx.fillStyle = "#FF0000";
         ctx.fillRect(this.lX, this.lY, this.size, this.size);
     };
+    
 }
 
 function Bot() {
-    this.lX = Math.random() * width;
-    this.lY = Math.random() * height;
+    
+    do {
+        this.lX = Math.random() * width;
+        this.lY = Math.random() * height;
+    } while (((this.lX - guy.lX)^2 + (this.lY - guy.lY)^2) < 401);
     this.size = 10;
 
     this.update = function() {
-        var xdiff = player.lX - this.lX;
-        var ydiff = player.lY - this.lY;
-        if (!invincible) {
+        var xdiff = guy.lX - this.lX;
+        var ydiff = guy.lY - this.lY;
+        if (!guy.invincible) {
             var xslowness = xdiff > 100 ? 500 : 100;
             var yslowness = ydiff > 100 ? 500 : 100;
             this.lX += (xdiff / xslowness);
@@ -265,22 +308,10 @@ function Bot() {
     };
 
     this.draw = function() {
-        ctx.fillStyle = invincible ? "#0000FF" : "#888888";
+        ctx.fillStyle = guy.invincible ? "#0000FF" : "#888888";
         ctx.fillRect(this.lX, this.lY, this.size, this.size);
     };
-}
-
-function shoot(d) {
-    if (canShoot) {
-        canShoot = false;
-        var newShot = new Shot(player.lX + (player.size / 2), player.lY + (player.size / 2), d);
-        shoots.push(newShot);
-        sprites.push(newShot);
-
-        setTimeout(function() {
-            canShoot = true;
-        }, 100);
-    }
+    
 }
 
 function isColliding(obj1, obj2) {
@@ -318,87 +349,4 @@ Array.prototype.move = function(old_index, new_index) {
         }
     }
     this.splice(new_index, 0, this.splice(old_index, 1)[0]);
-};
-
-var Stopwatch = function(elem, options) {
-
-    var timer = createTimer(),
-        startButton = createButton("start", start),
-        stopButton = createButton("stop", stop),
-        resetButton = createButton("reset", reset),
-        offset,
-        clock,
-        interval;
-
-    // default options
-    options = options || {};
-    options.delay = options.delay || 1;
-
-    // append elements     
-    elem.appendChild(timer);
-
-    // initialize
-    reset();
-
-    // private functions
-    function createTimer() {
-        return document.createElement("span");
-    }
-
-    function createButton(action, handler) {
-        var a = document.createElement("a");
-        a.href = "#" + action;
-        a.innerHTML = action;
-        a.addEventListener("click", function(event) {
-            handler();
-            event.preventDefault();
-        });
-        return a;
-    }
-
-    function start() {
-        if (!interval) {
-            offset = Date.now();
-            interval = setInterval(update, options.delay);
-        }
-    }
-
-    function stop() {
-        if (interval) {
-            clearInterval(interval);
-            interval = null;
-        }
-    }
-
-    function reset() {
-        clock = 0;
-        render(0);
-    }
-
-    function update() {
-        clock += delta();
-        render();
-    }
-
-    function render() {
-        timer.innerHTML = sigFigs((clock / 1000), 3) + "s";
-    }
-    
-    function sigFigs(n, sig) {
-        var mult = Math.pow(10, sig - Math.floor(Math.log(n) / Math.LN10) - 1);
-        return Math.round(n * mult) / mult;
-    }
-
-    function delta() {
-        var now = Date.now(),
-            d = now - offset;
-
-        offset = now;
-        return d;
-    }
-
-    // public API
-    this.start = start;
-    this.stop = stop;
-    this.reset = reset;
 };

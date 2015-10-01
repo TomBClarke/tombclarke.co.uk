@@ -9,9 +9,9 @@
 <!-- Setup dir -->
 <?php
     //For when using localhost:
-    $serv_dir = "/hinckleyhomeless/";
+//    $serv_dir = "/hinckleyhomeless/";
     //For when using the proper server:
-//    $serv_dir = "/";
+    $serv_dir = "/";
 ?>
 
 <script> var serv_dir = "<?php print $serv_dir; ?>"; </script>
