@@ -1,12 +1,17 @@
 <!-- Meta Stuff -->
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type"   content="text/html; charset=utf-8" />
+<meta property="og:url"           content="http://www.hinckleyhomeless.com/" />
+<meta property="og:type"          content="website" />
+<meta property="og:title"         content="Hinckley Homeless Group" />
+<meta property="og:description"   content="Welcome to Lawrence House. We provide a safe environment for homeless young people." />
+<meta property="og:image"         content="http://www.hinckleyhomeless.com/res/img/front.jpg" />
 
 <!-- Setup dir -->
 <?php
     //For when using localhost:
-//    $serv_dir = "/hinckleyhomeless/";
+    $serv_dir = "/hinckleyhomeless/";
     //For when using the proper server:
-    $serv_dir = "/";
+//    $serv_dir = "/";
 ?>
 
 <script> var serv_dir = "<?php print $serv_dir; ?>"; </script>
@@ -22,7 +27,7 @@
 <script src="<?php print $serv_dir; ?>js/coreimports.js"></script>
 
 <!-- JQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="<?php print $serv_dir; ?>js/jquery.js"></script>
 
 <!-- PHP Includes -->
 <?php include $comp_dir . 'php/header.php'; ?>

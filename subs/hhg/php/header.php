@@ -4,6 +4,7 @@
     <span class="desktop" id="header-nav">
         <a href="<?php echo $serv_dir; ?>">Home</a> | 
         <a href="<?php echo $serv_dir . 'about'; ?>">About Us</a> |
+        <a href="<?php echo $serv_dir . 'news'; ?>">News</a> |
         <a href="<?php echo $serv_dir . 'living-here'; ?>">Living Here</a> | 
         <a href="<?php echo $serv_dir . 'app-info'; ?>">App Info</a> | 
         <a href="<?php echo $serv_dir . 'faq'; ?>">FAQs</a> | 
@@ -24,6 +25,7 @@
     <ul class="nav-list" id="mobile-nav">
         <li><a href="<?php echo $serv_dir; ?>">Home</a></li>
         <li><a href="<?php echo $serv_dir . 'about'; ?>">About Us</a></li>
+        <li><a href="<?php echo $serv_dir . 'news'; ?>">News</a></li>
         <li><a href="<?php echo $serv_dir . 'living-here'; ?>">Living Here</a></li>
         <li><a href="<?php echo $serv_dir . 'app-info'; ?>">Application Info</a></li>
         <li><a href="<?php echo $serv_dir . 'faq'; ?>">FAQs</a></li>

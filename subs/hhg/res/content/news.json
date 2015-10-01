@@ -1,0 +1,33 @@
+{ "stories": 
+    [
+        {
+            "headline": "Sainsbury's Charity Voting",
+            "date": "02-10-2015",
+            "pic": "sainsburys.jpg",
+            "text": [
+                "Voting is all done now.",
+                "I hope we did well",
+                "Random example filler text",
+                "fujikedsgbiksdfusdghfksdfhjhkfjsd",
+                "test test test test test test test test test test test test test test test "
+                ],
+            "links": [
+                { "link": "https://www.facebook.com/Sainsburyshinckley", "title": "Sainsbury's Hinckley's Facebook page" }
+            ]
+        },
+        {
+            "headline": "Welcome to the new Hinckley Homeless Website!",
+            "date": "01-10-2015",
+            "pic": "tbc.png",
+            "text": [
+                "Welcome to the new Hinckley Homeless Group website!",
+                "This fantastic website (better than that Google thing) was developed by the fantastic Tom Clarke as a voluntary project (he is just that nice).",
+                "If Google are reading this, I am joking and please give me a job."
+                ],
+            "links": [
+                { "link": "http://tombclarke.co.uk", "title": "Tom's main website" },
+                { "link": "http://tombclarke.co.uk", "title": "Test Link" }
+            ]
+        }
+    ]
+}
