@@ -48,6 +48,9 @@ function initTable() {
             tr.append(tdp, tdf, tdl);
             $('#tivTable').append(tr);
         });
+        
+        window.onfocus = updateData;
+        keepUpdated();
     } catch (e) {var resetData = {
             "peoplelocations": [
                 "at home",
@@ -85,17 +88,32 @@ function getSelectOptions() {
 }
 
 function updateJSON() {
-    updateData(this.id.replace("select", ""), this[this.selectedIndex].value);
+    data[this.id.replace("select", "")] = this[this.selectedIndex].value;
     
     var dataToSave = { "peoplelocations": data };
     
     var update = $.ajax({
         url: "update.php",
         data: ({ json: JSON.stringify(dataToSave) }),
-        async: false
+        async: true
     }).responseText;
 }
 
-function updateData(index, newLocation) {
-    data[index] = newLocation;
+function updateData() {
+    data = $.parseJSON($.ajax({
+        url: "peoplelocations.json",
+        async: false,
+        dataType: "json"
+    }).responseText).peoplelocations;
+
+    data.forEach(function(p, pi) {
+        $('#select' + pi).prop('selectedIndex', ((locations.indexOf(p) > -1) ? locations.indexOf(p) : 0))
+    });
+}
+
+function keepUpdated() {
+    setTimeout(function() {
+        updateData();
+        keepUpdated();
+    }, 180000);
 }

@@ -3,7 +3,9 @@
         "at home",
         "at uni",
         "at work",
-        "away",
+        "at society",
+        "away (coming home)",
+        "away (not coming home)",
         "at their real home"
     ]
 }
