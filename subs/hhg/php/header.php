@@ -16,8 +16,40 @@
     </span>
     
     <span class="boldmouseover" id="header-donate-link">
-        <a target="_blank" href="https://mydonate.bt.com/charities/hinckleyhomelessgroup" class="desktop">Donate here!</a>
+        <span class="desktop desktopdonateholder">
+            <a target="_blank" href="https://mydonate.bt.com/charities/hinckleyhomelessgroup" class="desktopdonate">Donate here!</a>
+            <br/><a target="_blank" href="https://mydonate.bt.com/charities/hinckleyhomelessgroup" class="desktopdonate smile">☺</a>
+        </span>
         <a target="_blank" href="https://mydonate.bt.com/charities/hinckleyhomelessgroup" class="mobile mobiledonate">Click to donate</a>
+        
+        <script>
+        $('.desktopdonateholder').mouseenter(function() {
+            $('.desktopdonateholder').animate(
+                {
+                    width: '140px',
+                    height: '115px',
+                    top: '70',
+                    right: '25'
+                }
+            );
+            
+            $('.smile').fadeIn();
+        });
+        
+        $('.desktopdonateholder').mouseleave(function() {
+            $('.desktopdonateholder').animate(
+                {
+                    width: '120px',
+                    height: '95px',
+                    top: '50',
+                    right: '10'
+                }
+            );
+            
+            $('.smile').fadeOut();
+        }); 
+        </script>
+        
     </span>
 </div>
 

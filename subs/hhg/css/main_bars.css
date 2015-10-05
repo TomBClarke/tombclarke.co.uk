@@ -15,8 +15,6 @@
 }
 
 #header-donate-link {
-/*    background: cyan;*/
-/*    color: #00008B;*/
     position: fixed;
     right: 0px;
     padding: 0px;
@@ -101,7 +99,7 @@
     margin: auto;
 }
 
-#footer-logo {
+.footer-logo {
     height: 50px;
     width: 50px;
 }
@@ -123,6 +121,24 @@
 
 .mobiledonate {
     font-size: 1.4em;
+}
+
+.desktopdonateholder {
+    position: fixed;
+    width: 120px;
+    height: 95px;
+    top: 50px;
+    right: 10px;
+    background: cyan;
+    border-radius: 100px;
+    padding-top: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.smile {
+    display: none;
 }
 
 @media (min-width: 1000px) {
@@ -165,7 +181,7 @@
         display: inline;
     }
     
-    #footer-logo {
+    .footer-logo {
         height: 100px;
         width: 100px;
     }

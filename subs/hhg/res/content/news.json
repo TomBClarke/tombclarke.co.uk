@@ -5,11 +5,10 @@
             "date": "02-10-2015",
             "pic": "sainsburys.jpg",
             "text": [
-                "Voting is all done now.",
-                "I hope we did well",
-                "Random example filler text",
-                "fujikedsgbiksdfusdghfksdfhjhkfjsd",
-                "test test test test test test test test test test test test test test test "
+                "Sainsburys Hinckley, soon to be opening a new shop, recently ran a vote on their official Facebook page allowing users to choose what charity they would like Sainsbury's to help fund.",
+                "Hinckley Homeless Group were among the choices, and recieved good support - thank you to everyone who voted!",
+                "The winning charty is being contacted on Tuesday (6th of October) and shall be actually announced shortly after.",
+                "We've all got our fingers crossed!"
                 ],
             "links": [
                 { "link": "https://www.facebook.com/Sainsburyshinckley", "title": "Sainsbury's Hinckley's Facebook page" }
@@ -21,12 +20,14 @@
             "pic": "tbc.png",
             "text": [
                 "Welcome to the new Hinckley Homeless Group website!",
-                "This fantastic website (better than that Google thing) was developed by the fantastic Tom Clarke as a voluntary project (he is just that nice).",
-                "If Google are reading this, I am joking and please give me a job."
+                "Developing in his spare time, Computer Science student Tom has creating this new website for Lawrence House consistently consulting with the manager of the project to create features required and tailoring the website to her wishes.",
+                "A large part of the project is making the site mobile friendly, as the previous edition fell short in this area. Both the 'desktop' and 'mobile' views have been worked on to optimise for viewing with ease."
                 ],
             "links": [
                 { "link": "http://tombclarke.co.uk", "title": "Tom's main website" },
-                { "link": "http://tombclarke.co.uk", "title": "Test Link" }
+                { "link": "http://tombclarke.co.uk", "title": "Another link" },
+                { "link": "http://tombclarke.co.uk", "title": "Demonstrating how multiple links work" },
+                { "link": "http://tombclarke.co.uk", "title": "Notice the commas" }
             ]
         }
     ]

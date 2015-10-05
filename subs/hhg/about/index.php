@@ -35,9 +35,13 @@
             <div id="staff">
                 <h1>Staff</h1>
                 <div class="section">
+                    <img class="staffpic" src="<?php print $serv_dir; ?>res/img/staff/sue.png"/>
                     <h3>Project Manager - Sue Clarke</h3>
+                    <img class="staffpic" src="<?php print $serv_dir; ?>res/img/staff/linda.png"/>
                     <h3>Project Worker - Linda Cope</h3>
+                    <img class="staffpic" src="<?php print $serv_dir; ?>res/img/staff/zoe.png"/>
                     <h3>Project Worker - Zoe Fisher</h3>
+                    <img class="staffpic" src="<?php print $serv_dir; ?>res/img/staff/marie.png"/>
                     <h3>Domestic Assistant - Marie Blockley</h3>
                 </div>
             </div>

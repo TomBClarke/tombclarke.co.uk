@@ -139,7 +139,13 @@ h3 {
 }
 
 #fronttable td {
+    vertical-align: top;
     width: 50%;
+}
+
+.staffpic {
+    max-width: 300px;
+    max-height: 300px;
 }
 
 @media (max-width: 1000px) {

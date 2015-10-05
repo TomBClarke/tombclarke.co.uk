@@ -22,13 +22,13 @@ function initTable() {
             dataType: "json"
         }).responseText).peoplelocations;
         
-        data.forEach(function(p, pi) {
+        people.forEach(function(p, pi) {
             var tr = $('<tr></tr>');
 
             var tdp = $('<td></td>')
                 .attr("id", "name" + pi)
                 .attr("class", "name")
-                .text(people[pi]);
+                .text(p);
 
             var tdf = $('<td></td>')
                 .attr("id", "filler" + pi)
@@ -41,7 +41,7 @@ function initTable() {
                 .append(
                     getSelectOptions()
                         .attr('id', 'select' + pi)
-                        .prop('selectedIndex', ((locations.indexOf(p) > -1) ? locations.indexOf(p) : 0))
+                        .prop('selectedIndex', ((locations.indexOf(data[pi]) > -1) ? locations.indexOf(data[pi]) : 0))
                         .change(updateJSON)
                 );
 
@@ -53,6 +53,7 @@ function initTable() {
         keepUpdated();
     } catch (e) {var resetData = {
             "peoplelocations": [
+                "at home",
                 "at home",
                 "at home",
                 "at home",
