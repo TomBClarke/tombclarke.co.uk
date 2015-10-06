@@ -1,5 +1,5 @@
 var Stopwatch = function(elem, options) {
-
+    
     var timer = createTimer(),
         offset,
         clock,
@@ -38,6 +38,10 @@ var Stopwatch = function(elem, options) {
         clock = 0;
         render();
     }
+    
+    function time() {
+        return clock;
+    }
 
     function update() {
         clock += delta();
@@ -57,6 +61,7 @@ var Stopwatch = function(elem, options) {
     }
 
     // public API
+    this.time = time;
     this.start = start;
     this.stop = stop;
     this.reset = reset;

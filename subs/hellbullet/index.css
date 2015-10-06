@@ -8,6 +8,7 @@ html, body {
 }
 
 #main {
+    display: none;
     outline: none;
 }
 
@@ -26,7 +27,6 @@ html, body {
     text-align: center;
     display: none;
     width: 100%;
-    height: 100%;
 }
 
 ul {
@@ -42,13 +42,40 @@ ul {
 
 #endgameholder {
     font-size: 4em;
+    padding-bottom: 10px;
 }
 
 #startgameholder {
     display: block;
 }
 
+#optionsholder {
+    text-align: center;
+}
+
 #inst {
     margin: auto;
     width: 400px;
+}
+
+#scoresubmitter {
+    display: none;
+}
+
+#leaderboard {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    top: 400px;
+    text-align: center;
+}
+
+#leaderboardtable {
+    text-align: center;
+    width: 100%;
+}
+
+#leaderboardtable td {
+    text-align: center;
+    width: 50%;
 }
