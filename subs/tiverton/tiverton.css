@@ -1,3 +1,9 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
 .main {
     margin: auto;
     margin-top: 5%;
@@ -32,9 +38,43 @@ p {
     font-size: 0.8em;
 }
 
+.greenbox {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: forestgreen;
+    color: white;
+    display: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+}
+
+#updateinfo {
+    font-size: 2em;
+    text-align: center;
+}
+
+#updateinfo button {
+    font-size: 1em;
+    margin: 10px;
+}
+
 @media (max-width: 1000px) {
     td {
         font-size: 3em;
+    }
+    
+    #uploadInfo {
+        font-size: 3em;
+    }
+    
+    #updateinfo {
+        font-size: 3em;
+    }
+    
+    #updateinfo button {
+        font-size: 1.5em;
     }
     
     select {

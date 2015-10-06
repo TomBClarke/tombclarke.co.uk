@@ -50,6 +50,7 @@ function initTable() {
         });
         
         window.onfocus = updateData;
+        updateLastUpdated();
         keepUpdated();
     } catch (e) {var resetData = {
             "peoplelocations": [
@@ -61,7 +62,7 @@ function initTable() {
                 "at home",
                 "at home",
                 "at home",
-                "at home"
+                "at their real home"
             ]
         }
         
@@ -89,15 +90,37 @@ function getSelectOptions() {
 }
 
 function updateJSON() {
-    data[this.id.replace("select", "")] = this[this.selectedIndex].value;
+    var index = this.id.replace("select", "");
+    var newVal = this[this.selectedIndex].value;
+    
+    //updateData();
+    
+    data[index] = newVal;
     
     var dataToSave = { "peoplelocations": data };
     
-    var update = $.ajax({
+    var updateText = $.ajax({
         url: "update.php",
         data: ({ json: JSON.stringify(dataToSave) }),
         async: true
     }).responseText;
+    
+    var id = this.id;
+    $('#uploadPerson').text(people[parseInt(id.substr(id.length - 1, id.length - 1))]);
+    $('#uploadLocation').text(this[this.selectedIndex].value);
+    
+    showfade('uploadInfo');
+}
+
+function updateLastUpdated() {
+    var currentdate = new Date(); 
+    var datetime = currentdate.getDate() + "/"
+                    + (currentdate.getMonth()+1)  + "/" 
+                    + currentdate.getFullYear() + " @ "  
+                    + currentdate.getHours() + ":"  
+                    + currentdate.getMinutes() + ":" 
+                    + currentdate.getSeconds();
+    $('#lastUpdated').text(datetime);
 }
 
 function updateData() {
@@ -110,6 +133,16 @@ function updateData() {
     data.forEach(function(p, pi) {
         $('#select' + pi).prop('selectedIndex', ((locations.indexOf(p) > -1) ? locations.indexOf(p) : 0))
     });
+    
+    showfade('refrehfeedback');
+    updateLastUpdated();
+}
+
+function showfade(id) {
+    $('#' + id).show();
+    setTimeout(function() {
+        $('#' + id).fadeOut();
+    }, 1500);
 }
 
 function keepUpdated() {
