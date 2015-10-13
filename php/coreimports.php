@@ -1,17 +1,18 @@
 <!-- Meta Stuff -->
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type"   content="text/html; charset=utf-8" />
+<meta name="viewport"             content="width=device-width, initial-scale=1">
 <meta property="og:url"           content="http://www.tombclarke.co.uk/" />
 <meta property="og:type"          content="website" />
 <meta property="og:title"         content="Tom Clarke" />
-<meta property="og:description"   content="Computer Science student at the University of Birmingham and developer. Looking for amazing oppertunities in life." />
+<meta property="og:description"   content="Computer Science student at the University of Birmingham and developer. Looking for amazing oppertunities in Computer Science and life." />
 <meta property="og:image"         content="http://www.tombclarke.co.uk/res/img/me_full.png" />
 
 <!-- Setup dir -->
 <?php
     //For when using localhost:
-    $serv_dir = "/tombclarke/";
+//    $serv_dir = "/tombclarke/";
     //For when using the proper server:
-//    $serv_dir = "/";
+    $serv_dir = "/";
 ?>
 
 <script> var serv_dir = "<?php print $serv_dir; ?>"; </script>

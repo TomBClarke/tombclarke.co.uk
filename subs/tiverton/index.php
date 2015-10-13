@@ -3,6 +3,7 @@
 
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Who's in?</title>
         <link rel="icon" href="favicon.png">
         <link type="text/css" rel="stylesheet" href="tiverton.css"/>
@@ -24,6 +25,9 @@
         </div>
         <div class="greenbox" id="uploadInfo">
             <p>Updated <span id="uploadPerson"></span>'s location to <span id="uploadLocation"></span>.</p>
+        </div>
+        <div class="greenbox" id="errorinfo">
+            <p>When the data was loaded, there was an error and the data was reset to default.</p>
         </div>
     </body>
 </html>

@@ -41,7 +41,6 @@
                     <h3>Project Worker - Linda Cope</h3>
                     <img class="staffpic" src="<?php print $serv_dir; ?>res/img/staff/zoe.png"/>
                     <h3>Project Worker - Zoe Fisher</h3>
-                    <img class="staffpic" src="<?php print $serv_dir; ?>res/img/staff/marie.png"/>
                     <h3>Domestic Assistant - Marie Blockley</h3>
                 </div>
             </div>

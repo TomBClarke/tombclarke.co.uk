@@ -23,11 +23,12 @@
         <a target="_blank" href="https://mydonate.bt.com/charities/hinckleyhomelessgroup" class="mobile mobiledonate">Click to donate</a>
         
         <script>
+        //Expand:
         $('.desktopdonateholder').mouseenter(function() {
             $('.desktopdonateholder').animate(
                 {
-                    width: '140px',
-                    height: '115px',
+                    width: '240px',
+                    height: '200px',
                     top: '70',
                     right: '25'
                 }
@@ -36,11 +37,12 @@
             $('.smile').fadeIn();
         });
         
+        //Contract:
         $('.desktopdonateholder').mouseleave(function() {
             $('.desktopdonateholder').animate(
                 {
-                    width: '120px',
-                    height: '95px',
+                    width: '200px',
+                    height: '150px',
                     top: '50',
                     right: '10'
                 }

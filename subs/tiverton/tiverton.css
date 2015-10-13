@@ -61,6 +61,10 @@ p {
     margin: 10px;
 }
 
+#errorinfo {
+    background-color: red;
+}
+
 @media (max-width: 1000px) {
     td {
         font-size: 3em;

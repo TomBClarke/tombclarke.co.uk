@@ -124,21 +124,25 @@
 }
 
 .desktopdonateholder {
+    text-align: center;
     position: fixed;
-    width: 120px;
-    height: 95px;
+    width: 200px;
+    height: 150px;
+    padding-top: 50px;
     top: 50px;
     right: 10px;
     background: cyan;
-    border-radius: 100px;
-    padding-top: 25px;
+    border-radius: 400px;
+    font-size: 30pt;
     font-weight: bold;
     cursor: pointer;
     cursor: hand;
+    border: solid black
 }
 
 .smile {
     display: none;
+    font-size: 70pt;
 }
 
 @media (min-width: 1000px) {

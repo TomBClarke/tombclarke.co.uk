@@ -138,9 +138,7 @@ function updateLBView() {
 
 function submitScore() {
     var name = $('#nameforlb').val();
-    if(name == "") {
-        $('#scoresubmitter').append("Please enter your name.");
-    } else {
+    if(name !== "") {
         $('#scoresubmitter').hide();
         updateLeaderBoardData(getPosInBoard(timer.time()), name, timer.time());
     }

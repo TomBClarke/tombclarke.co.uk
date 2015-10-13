@@ -60,7 +60,7 @@ function setupNews(_n) {
         
         var section = $('<div></div>').attr('class', 'section newssection');
         
-        if(!_n)
+        if(!_n && story.pic)
             section.append(
                 $('<img></img>')
                     .attr('src', serv_dir + 'res/img/news/' + story.pic)

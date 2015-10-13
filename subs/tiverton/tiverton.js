@@ -52,7 +52,8 @@ function initTable() {
         window.onfocus = updateData;
         updateLastUpdated();
         keepUpdated();
-    } catch (e) {var resetData = {
+    } catch (e) {
+        var resetData = {
             "peoplelocations": [
                 "at home",
                 "at home",
@@ -62,7 +63,7 @@ function initTable() {
                 "at home",
                 "at home",
                 "at home",
-                "at their real home"
+                "away (not home tonight)"
             ]
         }
         
@@ -71,6 +72,8 @@ function initTable() {
             data: ({ json: JSON.stringify(resetData) }),
             async: false
         }).responseText;
+        
+        showfade('errorinfo', 5000);
         
         initTable();
     }
@@ -92,8 +95,6 @@ function getSelectOptions() {
 function updateJSON() {
     var index = this.id.replace("select", "");
     var newVal = this[this.selectedIndex].value;
-    
-    //updateData();
     
     data[index] = newVal;
     
@@ -124,25 +125,30 @@ function updateLastUpdated() {
 }
 
 function updateData() {
-    data = $.parseJSON($.ajax({
-        url: "peoplelocations.json",
-        async: false,
-        dataType: "json"
-    }).responseText).peoplelocations;
-
-    data.forEach(function(p, pi) {
-        $('#select' + pi).prop('selectedIndex', ((locations.indexOf(p) > -1) ? locations.indexOf(p) : 0))
-    });
+//    data = $.parseJSON($.ajax({
+//        url: "peoplelocations.json",
+//        async: false,
+//        dataType: "json"
+//    }).responseText).peoplelocations;
+//
+//    data.forEach(function(p, pi) {
+//        $('#select' + pi).prop('selectedIndex', ((locations.indexOf(p) > -1) ? locations.indexOf(p) : 0))
+//    });
+//    
+//    showfade('refrehfeedback');
+//    updateLastUpdated();
     
-    showfade('refrehfeedback');
-    updateLastUpdated();
+    location.reload();
 }
 
-function showfade(id) {
+function showfade(id, _time) {
+    var time = 1500;
+    if(_time)
+        time = _time;
     $('#' + id).show();
     setTimeout(function() {
         $('#' + id).fadeOut();
-    }, 1500);
+    }, time);
 }
 
 function keepUpdated() {

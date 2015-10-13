@@ -1,14 +1,22 @@
 { "stories": 
     [
         {
+            "headline": "Alternativity",
+            "date": "11-10-2015",
+            "pic": "alternavitity.jpg",
+            "text": [
+                "We are pleased to confirm that we will once again take part in this year’s Churches Together in Hinckley & District ‘AlterNativity’ on Saturday 14th November 2015. The event will take place at the United Reformed Church in Hinckley (the Borough, Hinckley, Leicestershire, LE10 1NL) and will run from 10am to 2pm. This is an opportunity to purchase a Christmas gift with a difference! The gift we will be offering is a bedding bale for a homeless young person @ £10. Please come along and support this fantastic local event!"
+                ],
+            "links": [
+                { "link": "http://www.hinckley-alternativity.org.uk/", "title": "Alternavitiy" }
+            ]
+        },
+        {
             "headline": "Sainsbury's Charity Voting",
             "date": "02-10-2015",
             "pic": "sainsburys.jpg",
             "text": [
-                "Sainsburys Hinckley, soon to be opening a new shop, recently ran a vote on their official Facebook page allowing users to choose what charity they would like Sainsbury's to help fund.",
-                "Hinckley Homeless Group were among the choices, and recieved good support - thank you to everyone who voted!",
-                "The winning charty is being contacted on Tuesday (6th of October) and shall be actually announced shortly after.",
-                "We've all got our fingers crossed!"
+                "Sainsbury's Hinckley. As Sainsbury's will soon be opening their new store as part of The Crescent development in Hinckley they ran a Facebook poll to nominate a charity to support. Hinckley Homeless Group were one of the many charities in the running."
                 ],
             "links": [
                 { "link": "https://www.facebook.com/Sainsburyshinckley", "title": "Sainsbury's Hinckley's Facebook page" }
