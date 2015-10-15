@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>400</title>
+    </head>
+    <body>
+        <div class="main">
+            <h1>404 - Page Not Found!</h1>
+            <h2>Sorry, but looks like something went wrong. Click to go to <a href=http://tombclarke.co.uk>my home page.</a></h2>
+        </div>
+    </body>
+</html>
+<!-- 
+                                                                                                                                                                                                                                                                                         
+--> 
