@@ -1,0 +1,118 @@
+{
+    "projects": [
+        {
+            "id": "hellbullet",
+            "title": "UoB Games Dev. Society 2015/16 - Game Jam 1: Hell Bullet",
+            "date": "October 2015",
+            "img": "hellbullet.png",
+            "link": "http://hellbullet.tombclarke.co.uk",
+            "content": [
+                "Me and my friend Ben Durrans worked on a game called 'Hell Bullet' for the first game jam hosted by the current Games Dev. Society at UoB. We were inspired by similar games where you were mean to run from enemies but could shoot them to get rid of them.",
+                "Having only 1 week to complete the project, we manged to get the base game where you could move and the enemies chased you. We managed to include shooting, a invincible mode when you took damage, and a timer so you and friends could compare times. The final feature to implement was a score board (1 for each game difficulty) and put the game online so you can compare yourself to everyone.",
+                "This short project was good fun and let me and Ben work together well, practising web development (the entire thing was written in HTML5 and Canvas). There is plenty of ways to improve it, and the security of the leader board is fairly low, but for the week we had, the team was happy with the game and it was recieved well when we presented it at the game jam review scoring us 3rd out of all of the entries."
+            ],
+            "links": [
+                {
+                    "link": "https://gamesdevsoc.wordpress.com/",
+                    "text": "UoB Games Development Society"
+                },
+                {
+                    "link": "https://uk.linkedin.com/in/bendurrans",
+                    "text": "Ben Durrans"
+                }
+            ]
+        },
+        {
+            "id": "hhg",
+            "title": "Hinckley Homeless Group Website",
+            "date": "September 2015",
+            "img": "hhg.png",
+            "link": "http://hhg.tombclarke.co.uk",
+            "content": [
+                "As charity work, I have been working on a new website for Hinckley Homeless Group. For now, this link here is so the directors can see what I've done to see if they'd like to use it as the full site in place of their current site.",
+                "It is therefore worth noting that because this is effectively a development version lots of this could change, and at request will. To me, an important part of this website is to be mobile compatible, so please do view the website on a normal PC and a mobile phone to experience it in both 'modes'."
+            ],
+            "links": [
+                {
+                    "link": "http://www.hinckleyhomeless.com/",
+                    "text": "Hinckley Homeless Group"
+                }
+            ]
+        },
+        {
+            "id": "majestic",
+            "title": "Majestic Summer Internship 2015",
+            "date": "July to September 2015",
+            "img": "majestic.png",
+            "link": "https://labs.majestic.com/2015",
+            "content": [
+                "Myself, Misha Wagner and Rowan Cole worked as a team at Majestic to create interesting data visualisations using D3.js. Majestic also hired a journalist, Pupul Chatterjee, to write blogs about what we created. Through out the 10 weeks, we used HTML, CSS, PHP, Java, MySQL, JavaScript with D3 and, of course, the Majestic API.",
+                "We three developers worked closely together on development on all projects; communicating ideas, solving problems and using Git well between us. While fairly informal, we worked with an agile style of development, presenting a project, getting feedback and iterating on the feedback (generally every day or so).",
+                "While at Majestic our best project used data on 50,000 Twitter accounts and displayed them in a sunburst diagram and I also worked on integrating Twitter into the project. The project was received excellently, and they used their trade mark ‘Social Explorer’ on it as well as pushing it out as a headline on their blog and newsletters. It caused a fair amount more traffic to the Majestic site and a few of Majestic's friends said they were impressed.",
+                "I was also given the opportunity to go to Leeds Hack to represent Majestic as a sponsor, where I introduced Majestic to the attendees, was on hand to set hackers up with Majestic accounts, act as technical support and have discussions with them about what they could do as projects, and was responsible for selecting winner for our prizes and awarding them."
+            ],
+            "links": [
+                {
+                    "link": "http://mishawagner.com",
+                    "text": "Misha Wagner"
+                },
+                {
+                    "link": "https://linkedin.com/in/rowanphilip",
+                    "text": "Rowan Cole"
+                },
+                {
+                    "link": "https://twitter.com/pupulchatterjee",
+                    "text": "Pupul Chatterjee"
+                },
+                {
+                    "link": "https://labs.majestic.com",
+                    "text": "Labs"
+                },
+                {
+                    "link": "https://twitter.com/hashtag/socialexplorer",
+                    "text": "#SocialExplorer"
+                }
+                
+            ]
+        },
+        {
+            "id": "brumhack2",
+            "title": "BrumHack 2.0 - WebFite",
+            "date": "April 2015",
+            "img": "webfite.png",
+            "content": [
+                "Myself, Rowan Cole, Cameron Angus and Sebastian Dică as a team completed our first 24-hour hackathon - BrumHack 2.0. This is where me, Rowan and Misha first met Majestic and got a chance to use their data to do whatever we wanted. So, my team decided to make a fighting game with player attributes decided by website statistics determined from Majestic's data.",
+                "We finally settled on a list of websites the player could chose from, and attributes like strength and speed we determined by their various scores on Majestic (for example Trust Flow). We built our game in Unity and C# (which I was lead programmer in), but to deal with the web modules of C# not being supported by Unity we created separate C# programs to use the connectors supplied by Majestic to query the Majestic API. Once we had the data, two players could battle their chosen websites until a winner was decided.",
+                "This experience was fantastic for me, as I learnt a lot of new things about programming, obviously with a focus on C# and game design, met Majestic who I kept in contact with and eventually completed a very successful summer internship with, and was introduced to 'hackathons'. What I learnt at the event has helped in many ways and made me want to do many more hacks in the future."
+            ],
+            "links": [
+                {
+                    "link": "https://www.brumhack.co.uk/",
+                    "text": "BrumHack"
+                },
+                {
+                    "link": "https://majestic.com",
+                    "text": "Majestic"
+                }
+            ]
+        },
+        {
+            "id": "eqp",
+            "title": "Extended Project Qualification - Time Table O'Matic",
+            "date": "2013 - 2014",
+            "img": "ttom.png",
+            "link": "https://play.google.com/store/apps/details?id=appinventor.ai_tomclarke96_TC.TimeTableOMatic&hl=en_GB",
+            "content": [
+                "For my EPQ, while completing my final year of A-Levels, I created an Android App - the Time Table O'Matic. Inspiration for this can from my IT teacher (who made the objective-o-matic for my school)designed to help keep track of student progress. After speaking with them, I came up with this app to hold students' time table and target grades.",
+                "As I had never done any major programming project before this, and I knew I wanted to make an app, I was recommended the M.I.T. App Inventor (version 1 at the time I did the project). The learning experience was good as I learnt more about how programming worked from previous, generally informal knowledge with focus on app development. While I will not be using this again as I can program to a decent level, I appreciated what I learnt as I understood how to do some things and got a basic hold on Android Development (from the research that came with the project). Some parts of the programming was difficult due to the environment, and others due to me being new to it and doing the project independently, but I was able to manage the project effectively (and create the full report on it for the EPQ submission) and created an app that was received well by peers.",
+                "At time of writing (September 2015) the app has had a total of 183 installs since it's original release on 15th of November 2013."
+            ],
+            "links": [
+                {
+                    "link": "http://appinventor.mit.edu/",
+                    "text": "M.I.T. App Inventor"
+                }
+            ]
+        }
+    ]
+}

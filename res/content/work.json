@@ -2,7 +2,7 @@
         {"place": "Hinckley Homeless Group",
          "title": "Web Designer",
          "time": "September 2015",
-         "responsibilities": "Creating a new website for them - see more in projects.",
+         "responsibilities": "I created a new website for Hinckley Homeless Group to replace their original one using an agile approach to development.",
          "logo": "hhg",
          "link": "http://hinckleyhomeless.com",
          "type": "Voluntary"
@@ -10,15 +10,15 @@
         {"place": "Majestic",
          "title": "Intern Developer",
          "time": "July 2015 - September 2015",
-         "responsibilities": "Developing data visulasations using the Majestic API - see more in projects.",
+         "responsibilities": "Using various web technologies and utilising D3.js, me and a team of 2 other developers are using the Majestic API to create data visualisations. I also represented Majestic at Leeds Hack 2015.",
          "logo": "majestic",
          "link": "https://majestic.com",
          "type": "Internship"
         },
         {"place": "Spar",
-         "title": "Store Supervisor",
+         "title": "Store Supervisor (promoted from sales assistant March 2015)",
          "time": "October 2014 - Present",
-         "responsibilities": "Maintaining the shop, managing sales assisstants and handling customer queries",
+         "responsibilities": "Supervising sales assistants, opening, closing and operating the shop, handling money, and handling customer queries.",
          "logo": "spar",
          "link": "http://spar.co.uk",
          "type": "Job"
@@ -26,7 +26,7 @@
         {"place": "Crane-Electronics",
          "title": "Product Tester",
          "time": "Summer 2014",
-         "responsibilities": "Black box testing on a new Android App the company had developed.",
+         "responsibilities": "Exploring and testing a range of products to identify faults or problems and reporting them to the software engineer for revision. The main project was black box testing on an Android based device.",
          "logo": "ce",
          "link": "http://crane-electronics.com",
          "type": "Job"

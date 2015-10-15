@@ -69,11 +69,14 @@ function setupEducation() {
         
         tr = $('<tr></tr>');
         
-        tr.append(
-            $('<td></td>')
-                .attr("class", "td-ed-acc")
-                .text(e.accomplished)
-        );
+        var accomplished = $('<td></td>').attr("class", "td-ed-acc");
+        e.accomplished.forEach(function(a) {
+            accomplished.append(
+                $('<p></p>').text(a)
+            );
+        });
+        
+        tr.append(accomplished);
         
         $('#table-education').append(tr);
     });

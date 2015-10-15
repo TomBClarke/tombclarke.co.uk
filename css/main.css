@@ -124,6 +124,10 @@ table {
     cursor: hand;
 }
 
+.td-ed-acc p {
+    text-align: center;
+}
+
 @media (max-width: 1000px) {
     body {
         margin-top: 80px;

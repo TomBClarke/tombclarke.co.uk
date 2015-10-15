@@ -1,21 +1,35 @@
 { "skills": [
         {"name": "Java", 
-         "detail": "First year university module, robot programming, small independant projects and some small programs for use at Majestic (inlcuding stress-testing our website)."
+         "detail": "First year university module, robot programming, small independent projects and some small programs for use at Majestic (including stress-testing our website)."
         },
         {"name": "OCaml",
          "detail": "Half of the foundations of computer science module I completed."
         },
+        {"name": "Haskell",
+         "detail": "Taught in the second year of my degree."
+        },
         {"name": "JavaScript and jQuery", 
          "detail": "Taught in information and the web as a first year module, and heavily used in my Majestic internship."
+        },
+        {"name": "Version control system Git", 
+         "detail": "First used in year 1 of Computer Science, used more heavily over summer at Majestic and team projects in and out of University."
         },
         {"name": "HTML and CSS", 
          "detail": "Taught in A-level IT and first year module, expanded upon in my Majestic internship."
         },
         {"name": "D3.js", 
-         "detail": "Used to vsualise the big data Majestic hadon offer during my internship there."
+         "detail": "Used to visualise the big data Majestic had on offer during my internship there."
+        },
+        {"name": "PHP", 
+         "detail": "Used to build the Majestic Labs website, my website and the Hinckley Homeless Group website."
         },
         {"name": "MySQL", 
-         "detail": "Used in Social Explorer at Majestic to hold the processed data and to update and backup the data set."
+         "detail": "Used in Social Explorer at Majestic to hold the processed data and to update and backup the data set. Also taught more formally in Software Systems Components."
+        },
+        {"name": "MATLAB", 
+         "detail": "Taught in MOMDs Information Engineering (modulation of waves) and Multimedia Data (manipulation of images), and Computer Vision in the second year of University."
+        },{"name": "Social Media Integration", 
+         "detail": "Used in Social Explorer to tweet about the visualisation and where different Twitter handles rank, and the new Hinckley Homeless website to share news stories (although currently still a work-in-progress)."
         },
         {"name": "C#", 
          "detail": "Used in BrumHack 2.0 where I created a game in Unity."
@@ -24,9 +38,9 @@
          "detail": "Informally taught in my GCSE years."
         },
         {"name": "Team Work", 
-         "detail": "Demonstated well in robot programming, BrumHack, and my Majestic internship"
+         "detail": "Demonstrated well in robot programming, BrumHack, and my Majestic internship"
         },
-        {"name": "Presenting", 
+        {"name": "Presenting/Public Speaking", 
          "detail": "Representing Majestic at Leeds Hack."
         },
         {"name": "Product Testing", 

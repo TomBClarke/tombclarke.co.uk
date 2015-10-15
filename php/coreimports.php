@@ -1,6 +1,6 @@
 <!-- Meta Stuff -->
 <meta http-equiv="Content-Type"   content="text/html; charset=utf-8" />
-<meta name="viewport"             content="width=device-width, initial-scale=1">
+<!--<meta name="viewport"             content="width=device-width, initial-scale=1">-->
 <meta property="og:url"           content="http://www.tombclarke.co.uk/" />
 <meta property="og:type"          content="website" />
 <meta property="og:title"         content="Tom Clarke" />
@@ -10,9 +10,9 @@
 <!-- Setup dir -->
 <?php
     //For when using localhost:
-//    $serv_dir = "/tombclarke/";
+    $serv_dir = "/tombclarke/";
     //For when using the proper server:
-    $serv_dir = "/";
+//    $serv_dir = "/";
 ?>
 
 <script> var serv_dir = "<?php print $serv_dir; ?>"; </script>
