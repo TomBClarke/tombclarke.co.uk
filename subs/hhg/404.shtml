@@ -8,8 +8,7 @@
             body {
                 font-family: sans-serif;
                 text-align: center;
-                background: #b81d18;
-                margin: 0px;
+                background: rgb(0, 58, 255);
             }
 
             .main {
@@ -20,7 +19,7 @@
             }
             
             a {
-                color: #f0f0f0;
+                color: white;
                 text-decoration: underline;
             }
             
@@ -29,13 +28,14 @@
                 margin: 30px;
             }
         </style>
-        <title>401</title>
+        <title>404</title>
     </head>
     <body>
         <div class="main">
             <h1 id="face">&#9785;</h1>
-            <h1>401 - Unauthorised!</h1>
-            <h2>Sorry, but looks like you need to identify yourself. Click to go to <a href="http://tombclarke.co.uk">my home page.</a></h2>
+            <h1>404 - Page not found!</h1>
+            <h2>Sorry, but looks like there's nothing here. Click to go to our <a href="http://hinckleyhomeless.com">home page.</a></h2>
+            <a href="http://hinckleyhomeless.com"><img src="/res/img/logos/logo_white.png"></img></a>
         </div>
     </body>
 </html>

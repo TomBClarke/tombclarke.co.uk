@@ -2,16 +2,40 @@
 
 <html>
     <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="/favicon.png">
+        <style type="text/css">
+            body {
+                font-family: sans-serif;
+                text-align: center;
+                background: #b81d18;
+                margin: 0px;
+            }
+
+            .main {
+                color: #f0f0f0;
+                margin: auto;
+                padding: 20px;
+                max-width: 600px;
+            }
+            
+            a {
+                color: #f0f0f0;
+                text-decoration: underline;
+            }
+            
+            #face {
+                font-size: 10em;
+                margin: 30px;
+            }
+        </style>
         <title>404</title>
     </head>
     <body>
         <div class="main">
-            <h1>404 - Page Not Found!</h1>
-            <h2>Sorry, but looks like there's nothing here. Click to go to <a href=http://tombclarke.co.uk>my home page.</a></h2>
+            <h1 id="face">&#9785;</h1>
+            <h1>404 - Page not found!</h1>
+            <h2>Sorry, but looks like there's nothing here. Click to go to <a href="http://tombclarke.co.uk">my home page.</a></h2>
         </div>
     </body>
 </html>
-<!-- 
-                                                                                                                                                                                                                                                                                         
---> 
