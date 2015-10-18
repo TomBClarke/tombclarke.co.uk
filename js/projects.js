@@ -40,6 +40,7 @@ function setupProjects() {
         
         controls.append(
             $('<span></span>')
+                .attr('class', 'expandcontrol')
                 .attr('id', 'expand_' + p.id)
                 .text('Read about this ▼')
         );

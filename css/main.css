@@ -128,6 +128,11 @@ table {
     text-align: center;
 }
 
+.expandcontrol {
+    cursor: pointer;
+    cursor: hand;
+}
+
 @media (max-width: 1000px) {
     body {
         margin-top: 40px;
