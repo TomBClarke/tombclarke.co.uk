@@ -27,10 +27,10 @@
             "title": "Hinckley Homeless Group Website",
             "date": "September 2015",
             "img": "hhg.png",
-            "link": "http://hhg.tombclarke.co.uk",
+            "link": "http://hinckleyhomeless.com",
             "content": [
-                "As charity work, I have been working on a new website for Hinckley Homeless Group. For now, this link here is so the directors can see what I've done to see if they'd like to use it as the full site in place of their current site.",
-                "It is therefore worth noting that because this is effectively a development version lots of this could change, and at request will. To me, an important part of this website is to be mobile compatible, so please do view the website on a normal PC and a mobile phone to experience it in both 'modes'."
+                "As charity work, I have created a new website for Hinckley Homeless Group. With their previous website becoming outdated, I went into discussions with them about an upgrade. Working in close contact with the manager, I put together this nwe website which offered more functionality and mobile compatibility.",
+                "I enjoyed work on this, including the new ways I learned to build up webpages using PHP and jQuery, and enjoyed trying to include some social media integration (which worked well combining their news with Facebook). The website was viewed by the management committee on 13/10/2015 and was accepted."
             ],
             "links": [
                 {

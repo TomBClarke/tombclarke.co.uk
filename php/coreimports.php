@@ -1,11 +1,17 @@
 <!-- Meta Stuff -->
 <meta http-equiv="Content-Type"   content="text/html; charset=utf-8" />
-<!--<meta name="viewport"             content="width=device-width, initial-scale=1">-->
+<meta name="viewport"             content="width=device-width, initial-scale=1">
 <meta property="og:url"           content="http://www.tombclarke.co.uk/" />
 <meta property="og:type"          content="website" />
 <meta property="og:title"         content="Tom Clarke" />
 <meta property="og:description"   content="Computer Science student at the University of Birmingham and developer. Looking for amazing oppertunities in Computer Science and life." />
 <meta property="og:image"         content="http://www.tombclarke.co.uk/res/img/me_full.png" />
+<meta name="url"                  content="http://www.tombclarke.co.uk/" />
+<meta name="type"                 content="website" />
+<meta name="title"                content="Tom Clarke" />
+<meta name="description"          content="Computer Science student at the University of Birmingham and developer. Looking for amazing oppertunities in Computer Science and life." />
+<meta name="image"                content="http://www.tombclarke.co.uk/res/img/me_full.png" />
+<meta name="keywords"             content="Tom, Thomas, B, Clarke, Computer Science, computer science, tom clarke, Tom Clarke">
 
 <!-- Setup dir -->
 <?php

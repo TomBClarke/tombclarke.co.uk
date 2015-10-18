@@ -130,7 +130,7 @@ table {
 
 @media (max-width: 1000px) {
     body {
-        margin-top: 80px;
+        margin-top: 40px;
         margin-bottom: 48px;
     }
     
@@ -142,9 +142,24 @@ table {
     img.project-img {
         width: auto;
         max-height: 300px;
+        max-width: 200px;
         padding: 10px;
     }
     
+    .td-ed-pic img {
+        height: 150px;
+    }
+    
+    img#picofme {
+        width: 200px;
+        height: 200px;
+    }
+    
+    #table-education td {
+        display: block;
+    }
+    
+/*
     h1 {
         font-size: 5em;
     }
@@ -168,8 +183,5 @@ table {
     table {
         font-size: 2em;
     }
-    
-    .td-ed-pic img {
-        height: 150px;
-    }
+*/
 }

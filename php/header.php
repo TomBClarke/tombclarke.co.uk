@@ -5,8 +5,10 @@
         <a href="<?php echo $serv_dir; ?>experience">Experience</a>
     </span>
     
-    <span class="mobile">
-        <span id="mobile-text">Menu &#x25BC;</span>
+    <span class="mobile" id="mobile-header-holder-text">
+        <span>
+            <p id="mobile-header-text">Menu &#x25BC;</p>
+        </span>
     </span>
     
     <span id="header-social-links">
@@ -24,7 +26,7 @@
     </ul>
 
     <script>
-        $('#mobile-text').on('click', function () {
+        $('#mobile-header-text').on('click', function () {
             if ( $('#mobile-nav').is( ":hidden" ) ) {
                 $('#mobile-nav').show();
                 $('.main').hide();
@@ -32,7 +34,7 @@
                 $('#mobile-nav').hide();
                 $('.main').show();
             }
-            $('#mobile-text').text(switchArrow(document.getElementById('mobile-text').innerHTML));
+            $('#mobile-header-text').text(switchArrow(document.getElementById('mobile-header-text').innerHTML));
         });
 
         $('#mobile-nav').hide();
