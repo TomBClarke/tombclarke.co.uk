@@ -62,7 +62,8 @@
 
 .nav-list li {
     border-bottom: 5px;
-    width: 90%;
+    width: auto;
+    margin-right: 40px;
     border-bottom-style: solid;
     border-bottom-color: #a71c17;
     background: #b81d18;
