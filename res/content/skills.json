@@ -34,8 +34,14 @@
         {"name": "C#", 
          "detail": "Used in BrumHack 2.0 where I created a game in Unity."
         },
+        {"name": "C/C++", 
+         "detail": "Learning C/C++ and taking a module on it in Q1 2016."
+        },
         {"name": "Visual Basic", 
          "detail": "Informally taught in my GCSE years."
+        },
+        {"name": "Security", 
+         "detail": "Interest in security, part of the university's hacking club and taking module in Q1 2016."
         },
         {"name": "Team Work", 
          "detail": "Demonstrated well in robot programming, BrumHack, and my Majestic internship"

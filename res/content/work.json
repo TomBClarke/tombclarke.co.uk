@@ -1,12 +1,4 @@
 { "work": [
-        {"place": "Hinckley Homeless Group",
-         "title": "Web Designer",
-         "time": "September 2015",
-         "responsibilities": "I created a new website for Hinckley Homeless Group to replace their original one using an agile approach to development.",
-         "logo": "hhg",
-         "link": "http://hinckleyhomeless.com",
-         "type": "Voluntary"
-        },
         {"place": "Majestic",
          "title": "Intern Developer",
          "time": "July 2015 - September 2015",
@@ -14,6 +6,14 @@
          "logo": "majestic",
          "link": "https://majestic.com",
          "type": "Internship"
+        },
+        {"place": "Hinckley Homeless Group",
+         "title": "Web Designer",
+         "time": "September 2015",
+         "responsibilities": "I created a new website for Hinckley Homeless Group to replace their original one using an agile approach to development.",
+         "logo": "hhg",
+         "link": "http://hinckleyhomeless.com",
+         "type": "Voluntary"
         },
         {"place": "Spar",
          "title": "Store Supervisor (promoted from sales assistant March 2015)",

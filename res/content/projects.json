@@ -1,45 +1,6 @@
 {
     "projects": [
         {
-            "id": "hellbullet",
-            "title": "UoB Games Dev. Society 2015/16 - Game Jam 1: Hell Bullet",
-            "date": "October 2015",
-            "img": "hellbullet.png",
-            "link": "http://hellbullet.tombclarke.co.uk",
-            "content": [
-                "Me and my friend Ben Durrans worked on a game called 'Hell Bullet' for the first game jam hosted by the current Games Dev. Society at UoB. We were inspired by similar games where you were mean to run from enemies but could shoot them to get rid of them.",
-                "Having only 1 week to complete the project, we manged to get the base game where you could move and the enemies chased you. We managed to include shooting, a invincible mode when you took damage, and a timer so you and friends could compare times. The final feature to implement was a score board (1 for each game difficulty) and put the game online so you can compare yourself to everyone.",
-                "This short project was good fun and let me and Ben work together well, practising web development (the entire thing was written in HTML5 and Canvas). There is plenty of ways to improve it, and the security of the leader board is fairly low, but for the week we had, the team was happy with the game and it was recieved well when we presented it at the game jam review scoring us 3rd out of all of the entries."
-            ],
-            "links": [
-                {
-                    "link": "https://gamesdevsoc.wordpress.com/",
-                    "text": "UoB Games Development Society"
-                },
-                {
-                    "link": "https://uk.linkedin.com/in/bendurrans",
-                    "text": "Ben Durrans"
-                }
-            ]
-        },
-        {
-            "id": "hhg",
-            "title": "Hinckley Homeless Group Website",
-            "date": "September 2015",
-            "img": "hhg.png",
-            "link": "http://hinckleyhomeless.com",
-            "content": [
-                "As charity work, I have created a new website for Hinckley Homeless Group. With their previous website becoming outdated, I went into discussions with them about an upgrade. Working in close contact with the manager, I put together this nwe website which offered more functionality and mobile compatibility.",
-                "I enjoyed work on this, including the new ways I learned to build up webpages using PHP and jQuery, and enjoyed trying to include some social media integration (which worked well combining their news with Facebook). The website was viewed by the management committee on 13/10/2015 and was accepted."
-            ],
-            "links": [
-                {
-                    "link": "http://www.hinckleyhomeless.com/",
-                    "text": "Hinckley Homeless Group"
-                }
-            ]
-        },
-        {
             "id": "majestic",
             "title": "Majestic Summer Internship 2015",
             "date": "July to September 2015",
@@ -73,6 +34,45 @@
                     "text": "#SocialExplorer"
                 }
                 
+            ]
+        },
+        {
+            "id": "hhg",
+            "title": "Hinckley Homeless Group Website",
+            "date": "September 2015",
+            "img": "hhg.png",
+            "link": "http://hinckleyhomeless.com",
+            "content": [
+                "As charity work, I have created a new website for Hinckley Homeless Group. With their previous website becoming outdated, I went into discussions with them about an upgrade. Working in close contact with the manager, I put together this nwe website which offered more functionality and mobile compatibility.",
+                "I enjoyed work on this, including the new ways I learned to build up webpages using PHP and jQuery, and enjoyed trying to include some social media integration (which worked well combining their news with Facebook). The website was viewed by the management committee on 13/10/2015 and was accepted."
+            ],
+            "links": [
+                {
+                    "link": "http://www.hinckleyhomeless.com/",
+                    "text": "Hinckley Homeless Group"
+                }
+            ]
+        },
+        {
+            "id": "hellbullet",
+            "title": "UoB Games Dev. Society 2015/16 - Game Jam 1: Hell Bullet",
+            "date": "October 2015",
+            "img": "hellbullet.png",
+            "link": "http://hellbullet.tombclarke.co.uk",
+            "content": [
+                "Me and my friend Ben Durrans worked on a game called 'Hell Bullet' for the first game jam hosted by the current Games Dev. Society at UoB. We were inspired by similar games where you were mean to run from enemies but could shoot them to get rid of them.",
+                "Having only 1 week to complete the project, we manged to get the base game where you could move and the enemies chased you. We managed to include shooting, a invincible mode when you took damage, and a timer so you and friends could compare times. The final feature to implement was a score board (1 for each game difficulty) and put the game online so you can compare yourself to everyone.",
+                "This short project was good fun and let me and Ben work together well, practising web development (the entire thing was written in HTML5 and Canvas). There is plenty of ways to improve it, and the security of the leader board is fairly low, but for the week we had, the team was happy with the game and it was recieved well when we presented it at the game jam review scoring us 3rd out of all of the entries."
+            ],
+            "links": [
+                {
+                    "link": "https://gamesdevsoc.wordpress.com/",
+                    "text": "UoB Games Development Society"
+                },
+                {
+                    "link": "https://uk.linkedin.com/in/bendurrans",
+                    "text": "Ben Durrans"
+                }
             ]
         },
         {
