@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^projects/([A-Za-z0-9]+)$ ./projects/index.php?prj=$1 [L,NC]
