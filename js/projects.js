@@ -109,7 +109,7 @@ function setupProjects() {
         var a = $('<h1></h1>').append(
             $('<a></a>')
                 .attr('href', 'http://tombclarke.co.uk/projects')
-                .attr('text', 'View all projects ►')
+                .text('View all projects ►')
         );
 
         maindiv.append(a);
