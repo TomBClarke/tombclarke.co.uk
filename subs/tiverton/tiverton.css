@@ -66,6 +66,11 @@ p {
 }
 
 @media (max-width: 1000px) {
+/*
+    td {
+        display: inline;
+    }
+    
     td {
         font-size: 3em;
     }
@@ -97,4 +102,5 @@ p {
     .filler {
         font-size: 1.6em;
     }
+*/
 }

@@ -9,6 +9,8 @@ function setupProjects() {
     
     var maindiv = $('.main');
     
+    gotoproject = gotoproject.toLowerCase();
+    
     projects.forEach(function(p, pi) {
         if(gotoproject == "" || p.id == gotoproject) {
             displayedAnyProject = true;
