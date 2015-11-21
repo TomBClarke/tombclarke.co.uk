@@ -6,6 +6,7 @@
         <?php $comp_dir = ""; include $comp_dir . 'php/coreimports.php'; ?>
     </head>
     <body>
+        <?php include $comp_dir . 'php/pageimports.php'; ?>
         <div class="main">
             <img id="picofme" src="res/img/me_circle.png"/>
             <h1>Thomas B Clarke</h1>

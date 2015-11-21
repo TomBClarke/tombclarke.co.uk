@@ -7,6 +7,7 @@
         <script src="<?php echo $serv_dir; ?>js/experience.js"></script>
     </head>
     <body onload="initExperiences();">
+        <?php include $comp_dir . 'php/pageimports.php'; ?>
         <div class="main">
             <h1>My Experience</h1>
             <h2 id="exp-nav"></h2>

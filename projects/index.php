@@ -8,6 +8,7 @@
         <script src="<?php echo $serv_dir; ?>js/projects.js"></script>
     </head>
     <body onload="setupProjects();">
+        <?php include $comp_dir . 'php/pageimports.php'; ?>
         <div class="main">
             <h1>Projects</h1>
         </div>

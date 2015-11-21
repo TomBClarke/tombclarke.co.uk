@@ -21,6 +21,7 @@ img#picofme {
 
 img.project-img {
     width: auto;
+    max-width: 530px;
     max-height: 300px;
     padding: 10px;
 }

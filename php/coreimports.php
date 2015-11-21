@@ -1,24 +1,24 @@
 <!-- Meta Stuff -->
 <meta http-equiv="Content-Type"   content="text/html; charset=utf-8" />
-<meta name="viewport"             content="width=device-width, initial-scale=1">
+<meta name="viewport"             content="width=device-width, initial-scale=1" />
 <meta property="og:url"           content="http://www.tombclarke.co.uk/" />
 <meta property="og:type"          content="website" />
 <meta property="og:title"         content="Tom Clarke" />
-<meta property="og:description"   content="Computer Science student at the University of Birmingham and developer. Looking for amazing oppertunities in Computer Science and life." />
-<meta property="og:image"         content="http://www.tombclarke.co.uk/res/img/me_full.png" />
+<meta property="og:description"   content="Hi, I'm Tom, I study Computer Science at the University of Birmingham, and am looking for great projects to work on." />
+<meta property="og:image"         content="http://www.tombclarke.co.uk/res/img/me_circle.png" />
 <meta name="url"                  content="http://www.tombclarke.co.uk/" />
 <meta name="type"                 content="website" />
 <meta name="title"                content="Tom Clarke" />
-<meta name="description"          content="Computer Science student at the University of Birmingham and developer. Looking for amazing oppertunities in Computer Science and life." />
-<meta name="image"                content="http://www.tombclarke.co.uk/res/img/me_full.png" />
-<meta name="keywords"             content="Tom, Thomas, B, Clarke, Computer Science, computer science, tom clarke, Tom Clarke">
+<meta name="description"          content="Hi, I'm Tom, I study Computer Science at the University of Birmingham, and am looking for great projects to work on." />
+<meta name="image"                content="http://www.tombclarke.co.uk/res/img/me_circle.png" />
+<meta name="keywords"             content="Tom, Thomas, B, Clarke, Computer Science, computer science, tom clarke, Tom Clarke, projects, work, year in industry, ">
 
 <!-- Setup dir -->
 <?php
     //For when using localhost:
-    $serv_dir = "/tombclarke/";
+//    $serv_dir = "/tombclarke/";
     //For when using the proper server:
-//    $serv_dir = "/";
+    $serv_dir = "/";
 ?>
 
 <script> var serv_dir = "<?php print $serv_dir; ?>"; </script>
@@ -35,7 +35,3 @@
 
 <!-- JQuery -->
 <script src="<?php print $serv_dir; ?>js/jquery.js"></script>
-
-<!-- PHP Includes -->
-<?php include $comp_dir . 'php/header.php'; ?>
-<?php include $comp_dir . 'php/footer.php'; ?>

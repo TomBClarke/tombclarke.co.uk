@@ -10,7 +10,8 @@
                 "Myself, Misha Wagner and Rowan Cole worked as a team at Majestic to create interesting data visualisations using D3.js. Majestic also hired a journalist, Pupul Chatterjee, to write blogs about what we created. Through out the 10 weeks, we used HTML, CSS, PHP, Java, MySQL, JavaScript with D3 and, of course, the Majestic API.",
                 "We three developers worked closely together on development on all projects; communicating ideas, solving problems and using Git well between us. While fairly informal, we worked with an agile style of development, presenting a project, getting feedback and iterating on the feedback (generally every day or so).",
                 "While at Majestic our best project used data on 50,000 Twitter accounts and displayed them in a sunburst diagram and I also worked on integrating Twitter into the project. The project was received excellently, and they used their trade mark ‘Social Explorer’ on it as well as pushing it out as a headline on their blog and newsletters. It caused a fair amount more traffic to the Majestic site and a few of Majestic's friends said they were impressed.",
-                "I was also given the opportunity to go to Leeds Hack to represent Majestic as a sponsor, where I introduced Majestic to the attendees, was on hand to set hackers up with Majestic accounts, act as technical support and have discussions with them about what they could do as projects, and was responsible for selecting winner for our prizes and awarding them."
+                "I was also given the opportunity to go to Leeds Hack to represent Majestic as a sponsor, where I introduced Majestic to the attendees, was on hand to set hackers up with Majestic accounts, act as technical support and have discussions with them about what they could do as projects, and was responsible for selecting winner for our prizes and awarding them.",
+                "After we left Majestic, we were contacted by the Information is Beautiful organisation. The Majestic Universe had been nominated as a contender to win the Kantar Information is Beautiful Awards 2015, and we are through to the long list. We were all very excited to get this news, and are pleased to see how the Majestic Universe has been recieved."
             ],
             "links": [
                 {
@@ -32,8 +33,60 @@
                 {
                     "link": "https://twitter.com/hashtag/socialexplorer",
                     "text": "#SocialExplorer"
+                },
+                {
+                    "link": "http://www.informationisbeautifulawards.com/showcase/708-the-web-as-universe",
+                    "text": "Kantar Information is Beautiful Awards 2015"
                 }
                 
+            ]
+        },
+        {
+            "id": "astonhack",
+            "title": "AstonHack - Misconstrue",
+            "date": "November 2015",
+            "img": "misconstrue.png",
+            "link": "https://github.com/TomBClarke/AstonHack",
+            "content": [
+                "For the first ever AstonHack, myself, Rowan Cole and Misha Wagner decided to make a fun app for instant messaging with your friends - Misconstrue.",
+                "The app took your sentence, used IBM's Watson translator to translate it between five different languages and returning it in English, and sending that 'sentence' to the receiver. To make the app even more fun, we allowed the user to give URLs leading to images, and Watson would find what was in the image (tags) and we would get the first image from Google Images from searching the tags and send that to the receiver.",
+                "Of course, this was meant to be a fun app, but I was able to learn a large amount from completing the project. The main things for me was using Meteor JS, which allowed us to write JavaScript code to display in browser, and as iOS and Android apps. Being brand new to me, I enjoyed learning about how it structured its views and how I could use the environment to improve the GUI. Furthermore, this was my first major projects using Sockets, and we wrote a Java based server to connect the instances of the app together.",
+                "This was a good fun experience, and the best hack I've attended to date."
+            ],
+            "links": [
+                {
+                    "link": "http://mishawagner.com",
+                    "text": "Misha Wagner"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/rowanphilip",
+                    "text": "Rowan Cole"
+                },
+                {
+                    "link": "https://console.ng.bluemix.net/catalog/",
+                    "text": "IBM - BlueMix - Project Watson"
+                },
+                {
+                    "link": "http://astonhack.co.uk",
+                    "text": "AstonHack"
+                }
+            ]
+        },
+        {
+            "id": "hhg",
+            "title": "Hinckley Homeless Group Website",
+            "date": "September 2015",
+            "img": "hhg.png",
+            "link": "http://hinckleyhomeless.com",
+            "content": [
+                "As charity work, I have created a new website for Hinckley Homeless Group. With their previous website becoming outdated, I went into discussions with them about an upgrade. Working in close contact with the manager, I put together this new website which offered more functionality and mobile compatibility.",
+                "I enjoyed work on this, including the new ways I learned to build up webpages using PHP and jQuery, and enjoyed trying to include some social media integration (which worked well combining their news with Facebook). The website was viewed by the management committee on 13/10/2015 and was accepted."
+            ],
+            "links": [
+                {
+                    "link": "http://www.hinckleyhomeless.com/",
+                    "text": "Hinckley Homeless Group"
+                }
             ]
         },
         {
@@ -54,23 +107,6 @@
                 {
                     "link": "http://clarifai.com/",
                     "text": "Clarifai"
-                }
-            ]
-        },
-        {
-            "id": "hhg",
-            "title": "Hinckley Homeless Group Website",
-            "date": "September 2015",
-            "img": "hhg.png",
-            "link": "http://hinckleyhomeless.com",
-            "content": [
-                "As charity work, I have created a new website for Hinckley Homeless Group. With their previous website becoming outdated, I went into discussions with them about an upgrade. Working in close contact with the manager, I put together this new website which offered more functionality and mobile compatibility.",
-                "I enjoyed work on this, including the new ways I learned to build up webpages using PHP and jQuery, and enjoyed trying to include some social media integration (which worked well combining their news with Facebook). The website was viewed by the management committee on 13/10/2015 and was accepted."
-            ],
-            "links": [
-                {
-                    "link": "http://www.hinckleyhomeless.com/",
-                    "text": "Hinckley Homeless Group"
                 }
             ]
         },
