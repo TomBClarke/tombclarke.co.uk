@@ -134,6 +134,12 @@ table {
     cursor: hand;
 }
 
+video {
+    height: auto;
+    width: 500px;
+    padding: 10px;
+}
+
 @media (max-width: 1000px) {
     body {
         margin-top: 40px;
@@ -165,29 +171,9 @@ table {
         display: block;
     }
     
-/*
-    h1 {
-        font-size: 5em;
+    video {
+        height: auto;
+        width: 90%;
+        padding: 10px;
     }
-    
-    h2 {
-        font-size: 3em;
-    }
-    
-    h3 {
-        font-size: 2.5em;
-    }
-    
-    h4 {
-        font-size: 2em;
-    }
-    
-    p {
-        font-size: 2em;
-    }
-    
-    table {
-        font-size: 2em;
-    }
-*/
 }

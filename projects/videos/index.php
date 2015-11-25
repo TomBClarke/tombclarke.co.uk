@@ -1,0 +1,1 @@
+<script>window.location = 'http://tombclarke.co.uk/projects/videos/majestic';</script>
