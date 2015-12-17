@@ -16,9 +16,10 @@
 <!-- Setup dir -->
 <?php
     //For when using localhost:
-    $serv_dir = "/tombclarke/";
+    // $serv_dir = "/tombclarke/";
+	// $serv_dir = "/web/tombclarke/";
     //For when using the proper server:
-//    $serv_dir = "/";
+   $serv_dir = "/";
 ?>
 
 <script> var serv_dir = "<?php print $serv_dir; ?>"; </script>

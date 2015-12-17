@@ -42,6 +42,36 @@
             ]
         },
         {
+            "id": "hackkings",
+            "title": "HackKings 2015 - Realtime Browsing",
+            "date": "December 2015",
+            "img": "hackkings.jpg",
+            "link": "https://github.com/TomBClarke/HackKings2.1",
+            "content": [
+                "To finish off the academic year, me, Theo Styles and Ben Durrans attended HackKings at King's College London. After a series of presentations, we decided to use Pusher's service.",
+                "Inspired by atom-pair, we made a Chrome Extension which allows a user to share their current web page with friends/colleges. The client can input a key (supplied by the host) and will receive all of the HTML in currently in the host's browser. Then, actions performed by the host are sent to the client, such as scrolling or clicking a link. The client can also select links to go to.",
+                "After our first presentation, we were placed in the top 10 of 23 projects. We presented once again, and were awarded best hack by Pusher, and was placed runners up by HackKings overall out of everyone. We are very pleased with our project and the success it brought us, and are currently working to release it as a fully developed Chrome Extension."
+            ],
+            "links": [
+                {
+                    "link": "http://www.theostyles.co.uk/",
+                    "text": "Theo Styles"
+                },
+                {
+                    "link": "https://uk.linkedin.com/in/bendurrans",
+                    "text": "Ben Durrans"
+                },
+                {
+                    "link": "http://hackkings.org/",
+                    "text": "HackKings"
+                },
+                {
+                    "link": "https://pusher.com/",
+                    "text": "Pusher"
+                }
+            ]
+        },
+        {
             "id": "astonhack",
             "title": "AstonHack - Misconstrue",
             "date": "November 2015",
