@@ -11,14 +11,14 @@ function setupVideos() {
             $('<video controls></video>')
                 .text('Your browser does not support the video tag.')
                 .append($('<source></source>')
-                    .attr('src', v.video)
+                    .attr('src', v.video + '.' + v.type)
                     .attr('type', 'video/' + v.type)
                    )
         );
 
         section.append(
             $('<a download></a>')
-                .attr('href', v.video)
+                .attr('href', v.video + '.' + v.type)
                 .text('(Download video)')
         );
 
