@@ -1,6 +1,9 @@
 <!-- Meta Stuff -->
 <meta http-equiv="Content-Type"   content="text/html; charset=utf-8" />
 <meta name="viewport"             content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#202020">
+<meta name="msapplication-navbutton-color" content="#202020">
+<meta name="apple-mobile-web-app-status-bar-style" content="#202020">
 <meta property="og:url"           content="http://www.tombclarke.co.uk/" />
 <meta property="og:type"          content="website" />
 <meta property="og:title"         content="Tom Clarke" />
@@ -16,7 +19,7 @@
 <!-- Setup dir -->
 <?php
     //For when using localhost:
-    // $serv_dir = "/tombclarke/";
+//     $serv_dir = "/tombclarke/";
 	// $serv_dir = "/web/tombclarke/";
     //For when using the proper server:
    $serv_dir = "/";
@@ -25,7 +28,7 @@
 <script> var serv_dir = "<?php print $serv_dir; ?>"; </script>
 
 <!-- Icon -->
-<link rel="icon" href="<?php echo $serv_dir; ?>res/img/favicon.png">
+<link rel="icon" sizes="500x500" href="<?php echo $serv_dir; ?>res/img/me_circle.png">
 
 <!-- CSS -->
 <link type="text/css" rel="stylesheet" href="<?php echo $serv_dir; ?>css/main.css"/>
