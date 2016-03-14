@@ -30,11 +30,11 @@
       },
       {  
          "name":"PHP",
-         "detail":"Used to build the Majestic Labs website, my website and the Hinckley Homeless Group website."
+         "detail":"Used to build the Majestic Labs website, my website, the Hinckley Homeless Group website and as the backend for BrumHack 4."
       },
       {  
          "name":"MySQL",
-         "detail":"Used in Social Explorer at Majestic to hold the processed data and to update and backup the data set. Also built a system using JDBC."
+         "detail":"Used in Social Explorer at Majestic to hold the processed data and to update and backup the data set, and at BrumHack 4 to hold user profiles. Also built a system using JDBC."
       },
       {  
          "name":"Concurrency",
