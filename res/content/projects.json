@@ -5,7 +5,7 @@
             "title": "Team Project - FSA Generator",
             "date": "Janurary to March 2016",
             "img": "fsa.png",
-            "link": "fsa/FSA.jar",
+            "link": "uob/fsa/FSA.jar",
             "content": [
                 "In the second semester of University, myself and a team of five others under took the module 'Team Project'. Worth 20 credits, this was massively important to complete to a high standard.",
                 "The task was to 'create a visualisation of an algorithm'. Taking inspiration from the first few weeks of the second semester in models of computation, we created a program in Java that generates automata from regular expression, determinises it and also allows the user to test a string in it.",
@@ -13,7 +13,7 @@
             ],
             "links": [
                 {
-                    "link": "fsa/FSA.zip",
+                    "link": "uob/fsa/FSA.zip",
                     "text": "Source"
                 }
             ]
