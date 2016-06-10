@@ -17,13 +17,7 @@
 <meta name="keywords"             content="Tom, Thomas, B, Clarke, Computer Science, computer science, tom clarke, Tom Clarke, projects, work, year in industry, ">
 
 <!-- Setup dir -->
-<?php
-    //For when using localhost:
-//     $serv_dir = "/tombclarke/";
-	// $serv_dir = "/web/tombclarke/";
-    //For when using the proper server:
-   $serv_dir = "/";
-?>
+<?php $serv_dir = "/"; ?>
 
 <script> var serv_dir = "<?php print $serv_dir; ?>"; </script>
 

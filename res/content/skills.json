@@ -37,6 +37,10 @@
          "detail":"Used in Social Explorer at Majestic to hold the processed data and to update and backup the data set, and at BrumHack 4 to hold user profiles. Also built a system using JDBC."
       },
       {  
+         "name":"ServiceNow",
+         "detail":"A week long course on how to use ServiceNow. It concluded with a hackathon where we built a system for staff leave."
+      },
+      {  
          "name":"Concurrency",
          "detail":"Used to help stress testing at Majestic, and taught formally in Software Systems Components."
       },

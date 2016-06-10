@@ -1,4 +1,12 @@
 { "work": [
+        {"place": "CGI",
+         "title": "Industrial Placement",
+         "time": "July 2016 - July 2017",
+         "responsibilities": "This is my indisutrial placement for my course at University of Birmingha. Based in Birmingham, I am developing software.",
+         "logo": "cgi",
+         "link": "https://www.cgi.com/",
+         "type": "Industrial Placement"
+        },
         {"place": "Majestic",
          "title": "Intern Developer",
          "time": "July 2015 - September 2015",
@@ -17,7 +25,7 @@
         },
         {"place": "Spar",
          "title": "Store Supervisor (promoted from sales assistant March 2015)",
-         "time": "October 2014 - Marhc 2016",
+         "time": "October 2014 - March 2016",
          "responsibilities": "Supervising sales assistants, opening, closing and operating the shop, handling money, and handling customer queries.",
          "logo": "spar",
          "link": "http://spar.co.uk",
