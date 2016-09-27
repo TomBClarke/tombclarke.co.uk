@@ -17,7 +17,8 @@
 <meta name="keywords"             content="Tom, Thomas, B, Clarke, Computer Science, computer science, tom clarke, Tom Clarke, projects, work, year in industry, ">
 
 <!-- Setup dir -->
-<?php $serv_dir = "/"; ?>
+<!-- This is to support some aweful code I wrote when I began this project, but is effort to remove. I guess it could in theory be useful at some point... -->
+<?php $serv_dir = "/tombclarke/"; ?>
 
 <script> var serv_dir = "<?php print $serv_dir; ?>"; </script>
 

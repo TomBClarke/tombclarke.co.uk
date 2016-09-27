@@ -5,6 +5,10 @@
          "detail":"Team Project in second year (see FSA project), robot programming in first year, small independent projects and some small programs for use at Majestic (including stress-testing our website)."
       },
       {  
+         "name":"JavaScript and jQuery",
+         "detail":"Taught in information and the web as a first year module, and heavily used in my Majestic internship, CGI work and other personal projects."
+      },
+      {  
          "name":"OCaml",
          "detail":"Half of the foundations of computer science module I completed."
       },
@@ -13,12 +17,8 @@
          "detail":"Taught in the second year of my degree."
       },
       {  
-         "name":"JavaScript and jQuery",
-         "detail":"Taught in information and the web as a first year module, and heavily used in my Majestic internship and other personal projects."
-      },
-      {  
-         "name":"Version control system Git",
-         "detail":"First used in year 1 of Computer Science, used more heavily over summer at Majestic and team projects in and out of University."
+         "name":"Version control: Git and SVN",
+         "detail":"Both used inside University and at work, and Git in my personal time as well."
       },
       {  
          "name":"HTML and CSS",
@@ -37,8 +37,8 @@
          "detail":"Used in Social Explorer at Majestic to hold the processed data and to update and backup the data set, and at BrumHack 4 to hold user profiles. Also built a system using JDBC."
       },
       {  
-         "name":"ServiceNow",
-         "detail":"A week long course on how to use ServiceNow. It concluded with a hackathon where we built a system for staff leave."
+         "name":"PhoneGap Build",
+         "detail":"Used at CGI to create prototype mobile applications which involved multiple plugins."
       },
       {  
          "name":"Concurrency",
@@ -66,11 +66,11 @@
       },
       {  
          "name":"Security",
-         "detail":"Interested in security, am part of the university's hacking club and taking module in Q1 2016."
+         "detail":"Interested in security, am part of the university's hacking club and achieved 80% in year 2 of University."
       },
       {  
          "name":"Team Work",
-         "detail":"Demonstrated well in robot programming, BrumHack, and my Majestic internship"
+         "detail":"Demonstrated well in robot programming, BrumHack, my Majestic internship and while supervisor at SPAR."
       },
       {  
          "name":"Presenting / Public Speaking",
@@ -78,7 +78,7 @@
       },
       {  
          "name":"Product Testing",
-         "detail":"Four weeks intensively working on testing a new Android App for Crane-Electronics."
+         "detail":"Four weeks intensively working on testing a new Android App for Crane-Electronics Ltd."
       }
    ]
 }
