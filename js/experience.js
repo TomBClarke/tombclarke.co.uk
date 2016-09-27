@@ -8,107 +8,107 @@ function initExperiences() {
 }
 
 function setupSkills() {
-    var skills = $.parseJSON($.ajax({
+    $.ajax({
         url: serv_dir + "res/content/skills.json",
-        async: false,
-        dataType: "json"
-    }).responseText).skills;
-    
-    skills.forEach(function(s) {
-        var tr = $('<tr></tr>');
-        
-        tr.append(
-            $('<td></td>')
-                .attr("class", "td-skill")
-                .text(s.name)
-        );
-        
-        tr.append(
-            $('<td></td>')
-                .attr("class", "td-exp")
-                .text(s.detail)
-        );
-        
-        $('#table-skills').append(tr);
+        dataType: "json",
+        success: function(skills) {
+            skills.skills.forEach(function(s) {
+                var tr = $('<tr></tr>');
+
+                tr.append(
+                    $('<td></td>')
+                        .attr("class", "td-skill")
+                        .text(s.name)
+                );
+
+                tr.append(
+                    $('<td></td>')
+                        .attr("class", "td-exp")
+                        .text(s.detail)
+                );
+
+                $('#table-skills').append(tr);
+            });
+        }
     });
 }
 
 function setupEducation() {
-    var education = $.parseJSON($.ajax({
+    $.ajax({
         url: serv_dir + "res/content/education.json",
-        async: false,
-        dataType: "json"
-    }).responseText).education;
-    
-    education.forEach(function(e) {
-        var tr = $('<tr></tr>');
-        
-        tr.append(
-            $('<td><img src=\"' + serv_dir + 'res/img/logos/' + e.logo + '.png\"></img></td>')
-                .attr("class", "td-ed-pic")
-                .attr("rowspan", "3")
-        );
-        
-        tr.append(
-            $('<td></td>')
-                .attr("class", "td-ed-name")
-                .text(e.name)
-        );
-        
-        $('#table-education').append(tr);
-        
-        tr = $('<tr></tr>');
-        
-        tr.append(
-            $('<td></td>')
-                .attr("class", "td-ed-time")
-                .text(e.time)
-        );
-        
-        $('#table-education').append(tr);
-        
-        tr = $('<tr></tr>');
-        
-        var accomplished = $('<td></td>').attr("class", "td-ed-acc");
-        e.accomplished.forEach(function(a) {
-            accomplished.append(
-                $('<p></p>').text(a)
-            );
-        });
-        
-        tr.append(accomplished);
-        
-        $('#table-education').append(tr);
+        dataType: "json",
+        success: function(education) {
+            education.education.forEach(function(e) {
+                var tr = $('<tr></tr>');
+
+                tr.append(
+                    $('<td><img src=\"' + serv_dir + 'res/img/logos/' + e.logo + '.png\"></img></td>')
+                        .attr("class", "td-ed-pic")
+                        .attr("rowspan", "3")
+                );
+
+                tr.append(
+                    $('<td></td>')
+                        .attr("class", "td-ed-name")
+                        .text(e.name)
+                );
+
+                $('#table-education').append(tr);
+
+                tr = $('<tr></tr>');
+
+                tr.append(
+                    $('<td></td>')
+                        .attr("class", "td-ed-time")
+                        .text(e.time)
+                );
+
+                $('#table-education').append(tr);
+
+                tr = $('<tr></tr>');
+
+                var accomplished = $('<td></td>').attr("class", "td-ed-acc");
+                e.accomplished.forEach(function(a) {
+                    accomplished.append(
+                        $('<p></p>').text(a)
+                    );
+                });
+
+                tr.append(accomplished);
+
+                $('#table-education').append(tr);
+            });
+        }
     });
 }
 
 function setupWork() {
-    var work = $.parseJSON($.ajax({
+    $.ajax({
         url: serv_dir + "res/content/work.json",
-        async: false,
-        dataType: "json"
-    }).responseText).work;
-    
-    work.forEach(function(w) {
-        $('#work-div').append(
-            $('<img class=\"work-logo\" src=\"' + serv_dir + 'res/img/logos/' + w.logo + '.png\"></img>')
-        );
-        
-        $('#work-div').append(
-            $('<a target=\"_blank\" href=\"' + w.link + '\"><h2>' + w.place + '</h2></a>')
-        );
-        
-        $('#work-div').append(
-            $('<h2></h2>').text(w.title)
-        );
-        
-        $('#work-div').append(
-            $('<h4></h4>').text(w.time + ' | ' + w.type)
-        );
-        
-        $('#work-div').append(
-            $('<h4></h4>').text(w.responsibilities)
-        );
+        dataType: "json",
+        success: function(work) {
+            work.work.forEach(function(w) {
+                $('#work-div').append(
+                    $('<img class=\"work-logo\" src=\"' + serv_dir + 'res/img/logos/' + w.logo + '.png\"></img>')
+                );
+
+                $('#work-div').append(
+                    $('<a target=\"_blank\" href=\"' + w.link + '\"><h2>' + w.place + '</h2></a>')
+                );
+
+                $('#work-div').append(
+                    $('<h2></h2>').text(w.title)
+                );
+
+                $('#work-div').append(
+                    $('<h4></h4>').text(w.time + ' | ' + w.type)
+                );
+
+                $('#work-div').append(
+                    $('<h4></h4>').text(w.responsibilities)
+                );
+            });
+        }
     });
 }
 
