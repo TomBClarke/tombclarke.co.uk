@@ -15,7 +15,7 @@
 <!-- Setup dir -->
 <?php
     // This is to support some aweful code I wrote when I began this project, but is effort to remove. I guess it could in theory be useful at some point...
-    $serv_dir = "/tombclarke/"; 
+    $serv_dir = "/"; 
 ?>
 
 <script> var serv_dir = "<?php print $serv_dir; ?>"; </script>
