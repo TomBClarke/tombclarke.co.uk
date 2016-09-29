@@ -4,6 +4,21 @@
          "place":"South Africa",
          "id":"southafrica",
          "visited":"September 2016"
+     },
+     {
+         "place":"The Med",
+         "id":"med",
+         "visited":"September 2015"
+     },
+     {
+         "place":"Wales",
+         "id":"wales",
+         "visited":"many times..."
+     },
+     {
+         "place":"Turkey",
+         "id":"turkey",
+         "visited":"October 2013"
      }
  ]
 }
