@@ -43,6 +43,7 @@
         </div>
         
         <?php
+                // Need to print out text/images...
             }
         ?>
     </body>
