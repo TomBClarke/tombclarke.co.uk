@@ -140,6 +140,12 @@ video {
     padding: 10px;
 }
 
+.travel-cover {
+    width: 80%;
+    height: 20%;
+    padding-top: 50px;
+}
+
 @media (max-width: 1000px) {
     body {
         margin-top: 40px;

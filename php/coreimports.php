@@ -34,3 +34,22 @@
 
 <!-- JQuery -->
 <script src="<?php print $serv_dir; ?>js/jquery.js"></script>
+
+<?php
+
+function makeImg($src, $id, $class) {
+    return "<img src='" . $src . "' id='" . $id . "' class='" . $class . "' />";
+}
+
+function makeText($text) {
+    return "<p>" . $text . "<p>";
+}
+
+function makeLink($text, $link, $newTab) {
+    $string = "<a href='" . $link . "' ";
+    if ($newTab)
+        $string = $string . "target='_blank' ";
+    return $string . ">" . $text . "</a>";
+}
+
+?>
