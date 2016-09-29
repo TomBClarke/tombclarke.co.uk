@@ -14,11 +14,11 @@
 <meta name="title"                content="Tom Clarke" />
 <meta name="description"          content="Hi, I'm Tom, I study Computer Science at the University of Birmingham, and am looking for great projects to work on." />
 <meta name="image"                content="http://www.tombclarke.co.uk/res/img/me_circle.png" />
-<meta name="keywords"             content="Tom, Thomas, B, Clarke, Computer Science, computer science, tom clarke, Tom Clarke, projects, work, year in industry, ">
+<meta name="keywords"             content="TomBClarke, Tom B Clarke, Tom Clarke, Computer Science, projects, work, student, university, year in industry, developer">
 
 <!-- Setup dir -->
 <!-- This is to support some aweful code I wrote when I began this project, but is effort to remove. I guess it could in theory be useful at some point... -->
-<?php $serv_dir = "/"; ?>
+<?php $serv_dir = "/tombclarke/"; ?>
 
 <script> var serv_dir = "<?php print $serv_dir; ?>"; </script>
 
