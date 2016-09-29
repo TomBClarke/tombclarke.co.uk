@@ -1,0 +1,8 @@
+/* BLURB */
+    This site was created by Tom Clarke.
+
+/* SITE */
+    Last Update: 2016-09-29
+    Language: British English (en-gb)
+    Doctype: HTML5
+    Built With: Brackets, Chrome
