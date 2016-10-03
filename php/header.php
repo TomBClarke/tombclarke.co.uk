@@ -2,8 +2,7 @@
     <span class="desktop" id="header-nav">
         <a href="<?php echo $serv_dir; ?>">Home</a> | 
         <a href="<?php echo $serv_dir; ?>projects">Projects</a> | 
-        <a href="<?php echo $serv_dir; ?>experience">Experience</a> | 
-        <a href="<?php echo $serv_dir; ?>travel">Travelling</a>
+        <a href="<?php echo $serv_dir; ?>experience">Experience</a>
     </span>
     
     <span class="mobile" id="mobile-header-holder-text">
@@ -25,7 +24,6 @@
         <li><a href="<?php echo $serv_dir; ?>">Home</a></li>
         <li><a href="<?php echo $serv_dir; ?>projects">Projects</a></li>
         <li><a href="<?php echo $serv_dir; ?>experience">Experience</a></li>
-        <li><a href="<?php echo $serv_dir; ?>travel">Travelling</a></li>
     </ul>
 
     <script>
