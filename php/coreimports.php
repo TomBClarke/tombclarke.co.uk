@@ -40,7 +40,7 @@ function makeImg($src, $id, $class) {
 }
 
 function makeText($text) {
-    return "<p>" . $text . "<p>";
+    return "<p>" . $text . "</p>";
 }
 
 function makeLink($text, $link, $newTab) {
