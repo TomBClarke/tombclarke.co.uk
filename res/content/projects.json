@@ -8,7 +8,7 @@
             "link": "https://github.com/TomBClarke/BrumHack5",
             "content": [
                 "BrumHack 5.0 was a fantastic opportunity to try some new things as the hardware lab supplied by MLH was the most accessible yet and we had a wide range of sponsors at the event with exciting technologies to offer.",
-                "For this hackathon, I worked with Ben Durrans, Kyle Allen-Taylor and Toncu Vlad-Marian. We got our hands on a Muse headband which monitors alpha wave activity coming from your brain (connected to a mobile device over Bluetooth). We struggled to create reliable brain wave activity input, so eventually went on facial movements/expressions as detectable input. From this simple input we decided to create an Android application based on playing a ‘flappy bird’ clone with your mind (face).",
+                "For this hackathon, I worked with Ben Durrans, Kyle Allen-Taylor and Vlad-Marian Toncu. We got our hands on a Muse headband which monitors alpha wave activity coming from your brain (connected to a mobile device over Bluetooth). We struggled to create reliable brain wave activity input, so eventually went on facial movements/expressions as detectable input. From this simple input we decided to create an Android application based on playing a ‘flappy bird’ clone with your mind (face).",
                 "Having never used Android studio before, I worked with Ben who had some experience on building the ‘flappy bird’ style app and connecting to and getting data from the headset. The others began work on a backend for a leader board system. The leader board system was a SQL database sitting on an Amazon Web Server (AWS), with a PHP ‘interface’.  The ‘interface’ was unusual as we used one of the sponsors, Twilio, APIs to have connections over SMS. Given we were on an Android mobile device, we could text (what we chose to be) XML to the web server which stored it in the database and texted a result back to the user (for example if it was a new high score). We also set up a way for the user to text a friend’s number to the system, and the system would reply with a comparison of the friend and the user’s scores. Given I have some experience with the PHP/SQL that was used I also helped out with this area of the project.",
                 "Overall, it was a fantastic hackathon. I enjoyed and learnt from being able to experience several new technologies, and the project even won an award for our use of AWS. The team worked well together and we’re looking forward to the next BrumHack!"
             ],
@@ -23,7 +23,7 @@
                 },
                 {
                     "link": "https://www.linkedin.com/in/vlad-marian-toncu-842599b4 ",
-                    "text": "Toncu Vlad-Marian"
+                    "text": "Vlad-Marian Toncu"
                 },
                 {
                     "link": "https://www.brumhack.co.uk/",
