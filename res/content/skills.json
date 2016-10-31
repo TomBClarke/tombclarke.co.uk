@@ -8,6 +8,10 @@
          "name":"JavaScript and jQuery",
          "detail":"Taught in information and the web as a first year module, and heavily used in my Majestic internship, CGI work and other personal projects."
       },
+    {  
+         "name":"JavaEE / JBoss",
+         "detail":"Used at CGI to develop the BSL."
+      },
       {  
          "name":"OCaml",
          "detail":"Half of the foundations of computer science module I completed."
@@ -33,8 +37,12 @@
          "detail":"Used to build the Majestic Labs website, my website, the Hinckley Homeless Group website and as the backend for BrumHack 4."
       },
       {  
-         "name":"MySQL",
-         "detail":"Used in Social Explorer at Majestic to hold the processed data and to update and backup the data set, and at BrumHack 4 to hold user profiles. Also built a system using JDBC."
+         "name":"SQL",
+         "detail":"Used in various projects in university, work and personal projects. Experienced with MySQL and PostgreSQL. Used in Java with JDBC."
+      },
+      {  
+         "name":"Android",
+         "detail":"My first Android project was BrumHack 5 which you can read about in my projects page."
       },
       {  
          "name":"PhoneGap Build",
@@ -53,8 +61,8 @@
          "detail":"Used in Social Explorer to tweet about the visualisation and where different Twitter handles rank, and the new Hinckley Homeless website to share news stories (although currently still a work-in-progress)."
       },
       {  
-         "name":"C#",
-         "detail":"Used in BrumHack 2.0 where I created a game in Unity."
+         "name":"Unity",
+         "detail":"Used in BrumHack 2.0 where the team created a game in Unity and currently being experimented with to develop for my HTC Vive."
       },
       {  
          "name":"C/C++",
