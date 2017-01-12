@@ -17,7 +17,6 @@
                 <p>So far, I have had experience in Java, JavaScript (including jQuery and D3.js), C# (used in Unity), MATLAB, OCaml, Haskell and other web technologies. With this experience I feel ready and excited to go onto larger projects in the future, learning more languages and doing more interesting things!</p>
                 <p>You can check out my <a href="http://linkedin.com/in/tombclarke">LinkedIn</a>, <a href="res/files/CV.pdf">CV</a> and projects all from here.</p>
                 <p>The quickest way to contact me is via email: <a href="mailto:tom@tombclarke.co.uk">Contact me!</a></p>
-                <p>I also enjoy travelling, so feel free to see some of the interesting things I've seen on my travel page.</p>
             </div>
         </div>
     </body>
