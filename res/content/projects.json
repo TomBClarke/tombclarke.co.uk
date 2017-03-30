@@ -1,6 +1,44 @@
 {
     "projects": [
         {
+            "id": "brumhack6",
+            "title": "BrumHack 6 - Safe Space as a Service",
+            "date": "March 2017",
+            "img": "hackharassment.jpg",
+            "link": "https://github.com/TomBClarke/BrumHack6-SSaaS",
+            "content": [
+                "For BrumHack 6 I worked with Ben Durrans to create a hackathon which entered the running for 'hack harassment' - an MLH motive to try to build projects which help deal with online harassment in one way or another.",
+                "The project comprised of two components – a web service and a Chrome extension. ",
+                "The web service allows a user to submit sentences and received the sentences back after being processed. The processing included submitting each sentence to IBM Watson's tone analyser to investigate various attributes about how the sentence was written. If the sentence had a high likelihood (defined by thresholds we set) of features such as anger or disgust, it would be seen as 'bad'. Once the whole text was processed, it would be returned. We also allowed the user to submit URLs to pictures, where we used Watson's image analyser to get tags about what was in the picture and then put those tags through the same process as the text to decide if the picture was 'bad'.",
+                "'Bad' texts were replaced with random kitten facts and 'bad' pictures were replaced with pictures of kittens.",
+                "The Chrome extension we built alongside this automatically ran all text and images on the user’s web page through our service and replaced changed text and pictures. The Chrome extension also supported turning off the automatic processing of pages and allowed the user to specify custom thresholds for general attributes.",
+                "In terms of technology, we used Node.js to support the web service (hosted on AWS), 'Let’s Encrypt' to secure our site with HTTPS (so the extension could use AJAX on secure sites) and, as described above, IBM's Watson.",
+                "Our presentation went very well with the audience enjoying our entertaining way of handling nasty things on the web. For this we won MLH's #HackHarassment prize."
+            ],
+            "links": [
+                {
+                    "link": "https://www.linkedin.com/in/bendurrans",
+                    "text": "Ben Durrans"
+                },
+                {
+                    "link": "https://www.brumhack.co.uk/",
+                    "text": "BrumHack"
+                },
+                {
+                    "link": "https://aws.amazon.com/",
+                    "text": "AWS"
+                },
+                {
+                    "link": "https://letsencrypt.org/",
+                    "text": "Let's Encrypt"
+                },
+                {
+                    "link": "https://console.ng.bluemix.net/catalog/",
+                    "text": "IBM Watson"
+                }
+            ]
+        },
+        {
             "id": "brumhack5",
             "title": "BrumHack 5 - Brainy Bird",
             "date": "October 2016",
