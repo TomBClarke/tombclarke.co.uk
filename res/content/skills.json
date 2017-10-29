@@ -2,15 +2,19 @@
    "skills":[  
       {  
          "name":"Java",
-         "detail":"Team Project in second year (see FSA project), robot programming in first year, small independent projects and some small programs for use at Majestic (including stress-testing our website)."
+         "detail":"Final year project based on Natural Language Processing, Team Project in second year (see FSA project), robot programming in first year, small independent projects and some small programs for use at Majestic (including stress-testing our website)."
+      },
+      {  
+         "name":"Java EE / JBoss",
+         "detail":"Used at CGI to develop the BSL, DCCA and extra Diagnostics Component. This also featured the technologies Swing MVC and Hibernate."
       },
       {  
          "name":"JavaScript and jQuery",
          "detail":"Taught in information and the web as a first year module, and heavily used in my Majestic internship, CGI work and other personal projects."
       },
-    {  
-         "name":"JavaEE / JBoss",
-         "detail":"Used at CGI to develop the BSL."
+      {  
+         "name":"SQL",
+         "detail":"Used in various projects in university, work and personal projects. Experienced with MySQL and PostgreSQL. Used in Java with JDBC. Used with Hibernate when building with JBoss."
       },
       {  
          "name":"OCaml",
@@ -37,10 +41,6 @@
          "detail":"Used to build the Majestic Labs website, my website, the Hinckley Homeless Group website and as the backend for BrumHack 4."
       },
       {  
-         "name":"SQL",
-         "detail":"Used in various projects in university, work and personal projects. Experienced with MySQL and PostgreSQL. Used in Java with JDBC."
-      },
-      {  
          "name":"Android",
          "detail":"My first Android project was BrumHack 5 which you can read about in my projects page."
       },
@@ -62,7 +62,7 @@
       },
       {  
          "name":"Unity",
-         "detail":"Used in BrumHack 2.0 where the team created a game in Unity and currently being experimented with to develop for my HTC Vive."
+         "detail":"Used in BrumHack 2.0 where the team created a game in Unity and experinmentation with development for HTC Vive."
       },
       {  
          "name":"C/C++",
@@ -82,7 +82,7 @@
       },
       {  
          "name":"Presenting / Public Speaking",
-         "detail":"Representing Majestic at Leeds Hack."
+         "detail":"Lead presentations infront of leading directors during my industrial placement at CGI. Representing Majestic at Leeds Hack."
       },
       {  
          "name":"Product Testing",

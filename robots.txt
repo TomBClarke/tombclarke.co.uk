@@ -1,3 +1,5 @@
 User-agent: *
 Disallow: /subs/
 Disallow: /php/
+Disallow: /js/
+Disallow: /css/

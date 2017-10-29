@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>Experience</title>
+        <title>Tom Clarke - Experience</title>
         <?php $comp_dir = "../"; include $comp_dir . 'php/coreimports.php'; ?>
         <script src="<?php echo $serv_dir; ?>js/experience.js"></script>
     </head>

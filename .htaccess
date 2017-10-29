@@ -1,3 +1,2 @@
 RewriteEngine on
 RewriteRule ^projects/([A-Za-z0-9]+)$ ./projects/index.php?prj=$1 [L,NC]
-RewriteRule ^travel/([A-Za-z0-9]+)$ ./travel/index.php?place=$1 [L,NC]
