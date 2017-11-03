@@ -17,6 +17,10 @@
          "detail":"Used in various projects in university, work and personal projects. Experienced with MySQL and PostgreSQL. Used in Java with JDBC. Used with Hibernate when building with JBoss."
       },
       {  
+         "name":"Python",
+         "detail":"Use in Intelligent Robotics."
+      },
+      {  
          "name":"OCaml",
          "detail":"Half of the foundations of computer science module I completed."
       },
