@@ -1,6 +1,17 @@
 {
     "projects": [
         {
+            "id": "ir",
+            "title": "Intelligent Robotics - Personal Item Protection System",
+            "date": "October to December 2017",
+            "img": "teamleslie.jpg",
+            "link": "https://github.com/TomBClarke/leslie",
+            "content": [
+                "For the main exercise in Intelligent Robotics, our team decided to create the Personal Item Protection System. The robot is able to navigate it's environment, recognise and talk to people, detect changes through RGB image change and depth change and use its sensors to also chase thieves of items from a table.",
+                "To ensure development was smooth, we used the ZenHub plugin for GitHub to manage jobs. The result was a fantastic MVP which impressed at the demo."
+            ]
+        },
+        {
             "id": "brumhack6",
             "title": "BrumHack 6 - Safe Space as a Service",
             "date": "March 2017",
