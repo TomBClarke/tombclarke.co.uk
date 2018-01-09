@@ -7,3 +7,4 @@ function switchArrow(txt) {
 
 // Hide advertisement...
 setTimeout(function(){ $('div').last().remove(); }, 1);
+
